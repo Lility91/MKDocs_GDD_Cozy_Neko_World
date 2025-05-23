@@ -2,6 +2,7 @@
 layout: default
 title: Cozy Neko World - GDD
 ---
+#Bem-vindo ao GDD
 
 # Cozy Neko World
 
