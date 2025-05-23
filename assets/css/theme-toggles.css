@@ -1,0 +1,16 @@
+body {
+    background-color: #fff;
+    color: #111;
+    font-family: Arial, sans-serif;
+    padding: 1em;
+    max-width: 720px;
+    margin: auto;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #111;
+      color: #eee;
+    }
+  }
+  
