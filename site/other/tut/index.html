@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+
+<html data-bs-theme="auto" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../../img/favicon.ico" rel="shortcut icon"/>
+<title>Tutorial mkdocs - Game Design Document (GDD)</title>
+<link href="../../css/bootstrap.min.css" rel="stylesheet"/>
+<link href="../../css/fontawesome.min.css" rel="stylesheet"/>
+<link href="../../css/brands.min.css" rel="stylesheet"/>
+<link href="../../css/solid.min.css" rel="stylesheet"/>
+<link href="../../css/v4-font-face.min.css" rel="stylesheet"/>
+<link href="../../css/base.css" rel="stylesheet"/>
+<link disabled="" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" id="hljs-light" rel="stylesheet"/>
+<link disabled="" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" id="hljs-dark" rel="stylesheet"/>
+<link href="../../css/style.css" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/python.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/javascript.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/html.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/css.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/bash.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/yaml.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/json.min.js"></script>
+<script>hljs.highlightAll();</script>
+<link href="..\..\pdf\document.pdf" rel="alternate" title="PDF" type="application/pdf"/></head>
+<body>
+<div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+<div class="container">
+<a class="navbar-brand" href="../..">Game Design Document (GDD)</a>
+<!-- Expander button -->
+<button aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbar-collapse" data-bs-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<!-- Expanded navigation -->
+<div class="navbar-collapse collapse" id="navbar-collapse">
+<!-- Main navigation -->
+<ul class="nav navbar-nav">
+<li class="nav-item">
+<a class="nav-link" href="../..">Home</a>
+</li>
+<li class="nav-item">
+<a aria-current="page" class="nav-link active" href="./">Tutorial mkdocs</a>
+</li>
+</ul>
+<ul class="nav navbar-nav ms-md-auto">
+<li class="nav-item">
+<a class="nav-link" href="../.." rel="prev">
+<i class="fa fa-arrow-left"></i> Previous
+                                </a>
+</li>
+<li class="nav-item">
+<a class="nav-link disabled" rel="next">
+                                    Next <i class="fa fa-arrow-right"></i>
+</a>
+</li>
+<li class="nav-item dropdown">
+<button aria-expanded="false" aria-label="Toggle theme" class="nav-link dropdown-toggle" data-bs-display="static" data-bs-toggle="dropdown" id="theme-menu">
+<i class="fa-solid fa-circle-half-stroke fa-fw"></i>
+<span class="d-lg-none ms-2">Toggle theme</span>
+</button>
+<ul class="dropdown-menu dropdown-menu-end">
+<li>
+<button aria-pressed="false" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+<i class="fa-solid fa-sun fa-fw"></i>
+<span class="ms-2">Light</span>
+<i class="fa-solid fa-check ms-auto d-none"></i>
+</button>
+</li>
+<li>
+<button aria-pressed="false" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+<i class="fa-solid fa-moon fa-fw"></i>
+<span class="ms-2">Dark</span>
+<i class="fa-solid fa-check ms-auto d-none"></i>
+</button>
+</li>
+<li>
+<button aria-pressed="true" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
+<i class="fa-solid fa-circle-half-stroke fa-fw"></i>
+<span class="ms-2">Auto</span>
+<i class="fa-solid fa-check ms-auto"></i>
+</button>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<script src="../../js/darkmode.js"></script>
+<div class="container">
+<div class="row">
+<div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+<div class="navbar-header">
+<button class="navbar-toggler collapsed" data-bs-target="#toc-collapse" data-bs-toggle="collapse" title="Table of Contents" type="button">
+<span class="fa fa-angle-down"></span>
+</button>
+</div>
+<div class="navbar-collapse collapse card bg-body-tertiary" id="toc-collapse">
+<ul class="nav flex-column">
+<li class="nav-item" data-bs-level="1"><a class="nav-link" href="#como-editar-o-documento">Como editar o documento</a>
+<ul class="nav flex-column">
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#titulo">Título</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#paragrafos">Parágrafos</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#listas">Listas</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#tabelas">Tabelas</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#links-ancoras">Links (âncoras)</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#imagens">Imagens</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#transformando-em-um-projeto-html">Transformando em um projeto HTML</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#criando-um-pdf-a-partir-de-um-mkdocs">Criando um PDF a partir de um mkdocs</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div></div>
+<div class="col-md-9" role="main">
+<h1 id="como-editar-o-documento">Como editar o documento</h1>
+<p>O mkdocs utiliza a sintaxe markdown para criação e edição das páginas. Para criar uma nova página basta criar um arquivo, através do Visual Studio Code, com a extensão md (botão direito na pasta da estrutura de arquivos, new, file e dê o nome e coloque a extensão .md).</p>
+<p>Para saber mais sobre a formatação markdown, <a href="https://www.markdownguide.org/basic-syntax/">clique aqui</a>. </p>
+<p>Para consultar a documentação oficial do mkdocs, <a href="https://www.mkdocs.org/">clique aqui</a></p>
+<h2 id="titulo">Título</h2>
+<p>Os títulos são escritos com o cerquilho (#) sendo que:</p>
+<pre><code class="language-md"># para título 1
+## para título 2
+### para título 3
+#### para título 4
+##### para título 5
+</code></pre>
+<h2 id="paragrafos">Parágrafos</h2>
+<p>Todos os parágrafos devem ter uma linha entre eles, entre listas e imagens, por exemplo, o texto abaixo:</p>
+<pre><code class="language-md">Este é o primeiro parágrafo.
+Este é o segundo parágrafo.
+</code></pre>
+<p>Será impresso assim:</p>
+<p>Este é o primeiro parágrafo.
+Este é o segundo parágrafo.</p>
+<h2 id="listas">Listas</h2>
+<p>Listas não ordenadas são criadas utilizando o hífen. O exemplo abaixo é formatado desta forma:</p>
+<pre><code class="language-md">- Item 1
+- Item 2
+- Item 3
+</code></pre>
+<p>É exibido desta forma:</p>
+<ul>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ul>
+<p>Listas ordenadas podem ser criadas utilizando o número na frente do elemento:</p>
+<pre><code class="language-md">1. Item 1
+2. Item 2
+3. Item 3
+</code></pre>
+<p>Exibe:</p>
+<ol>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ol>
+<h2 id="tabelas">Tabelas</h2>
+<p>Sintace:</p>
+<pre><code class="language-md">| Head 1 | Head 2 | Head 3 |
+| ------ | ------ | ------ |
+| Item 1 | Item 2 | Item 3 |
+| Item 4 | Item 5 | Item 6 |
+| Item 7 | Item 8 | Item 9 |
+</code></pre>
+<p>Sendo exibida assim:</p>
+<table>
+<thead>
+<tr>
+<th>Head 1</th>
+<th>Head 2</th>
+<th>Head 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Item 1</td>
+<td>Item 2</td>
+<td>Item 3</td>
+</tr>
+<tr>
+<td>Item 4</td>
+<td>Item 5</td>
+<td>Item 6</td>
+</tr>
+<tr>
+<td>Item 7</td>
+<td>Item 8</td>
+<td>Item 9</td>
+</tr>
+</tbody>
+</table>
+<h2 id="links-ancoras">Links (âncoras)</h2>
+<p>Links são criados com a seguinte sintaxe:</p>
+<pre><code class="language-md">[Texto de exibição](url do caminho)
+</code></pre>
+<p>Por exemplo, para acessar o site do Senac ficaria:</p>
+<pre><code class="language-md">[Senac](https://www.sp.senac.br/)
+</code></pre>
+<p>Seria exibido:</p>
+<p><a href="https://www.sp.senac.br/">Senac</a></p>
+<h2 id="imagens">Imagens</h2>
+<p>Sintaxe:</p>
+<pre><code class="language-md">![Alt da imagem](url do caminho local ou externa)
+</code></pre>
+<p>Exemplo:</p>
+<pre><code class="language-md">![Exemplo de imagem local](../img/sonic_feio.jpg | 200px)
+
+![Exemplo de imagem externa](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbkiAGkj63gvkYUlAJGE-fSnqax1zIIW1QPatBouVPQrKMAU79Vqq7YvA7Wpu5Xng2nWgHPFdgwBRR1f7FMXrnmOjWgGzRTzn4Q26UfYzs5OdoiaSSexOXr85TcYdEdeio9GIu7YrmVCsZ/s1600/super+mario+real.jpg)
+</code></pre>
+<p>Resultado:</p>
+<p><img alt="Exemplo de imagem local" src="../../img/sonic_feio.jpg"/></p>
+<p><img alt="Exemplo de imagem externa" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbkiAGkj63gvkYUlAJGE-fSnqax1zIIW1QPatBouVPQrKMAU79Vqq7YvA7Wpu5Xng2nWgHPFdgwBRR1f7FMXrnmOjWgGzRTzn4Q26UfYzs5OdoiaSSexOXr85TcYdEdeio9GIu7YrmVCsZ/s1600/super+mario+real.jpg"/></p>
+<p>O problema dessa abordagem é que Markdown não suporta ajuste de tamanho de imagem, sendo necessário utilizar html no lugar:</p>
+<pre><code class="language-html">&lt;img src="/img/sonic_feio.jpg" width="200"&gt;
+</code></pre>
+<p>Resultando em:</p>
+<p><img alt="Exemplo de imagem local com HTML" src="/img/sonic_feio.jpg" width="200"/></p>
+<p>Para ajustar o tamanho de imagem diretamente pelo Markdown, é necessário instalar alguns plugins. Por exemplo, o Pandoc, ou o Krandown, que permitem ajustar a figura com a sintaxe abaixo (mas é melhor fazer com HTML nesses casos):</p>
+<pre><code class="language-md">Pandoc: ![Exemplo de imagem local](../img/sonic_feio.jpg){width=250}
+Krandown: ![Exemplo de imagem local](../img/sonic_feio.jpg){: width=250}
+</code></pre>
+<h2 id="transformando-em-um-projeto-html">Transformando em um projeto HTML</h2>
+<p>Se desejar, após a construção do documento, é possível transformar o projeto em um projeto HTML.</p>
+<p>Navegue, via terminal, até a pasta onde está o arquivo mkdocs.yml. Digite <code>mkdocs build</code> e uma pasta chamada <code>site</code> será gerada. Nessa pasta todo o conteúdo me foi convertido em HTML + CSS + JavaScript.</p>
+<h2 id="criando-um-pdf-a-partir-de-um-mkdocs">Criando um PDF a partir de um mkdocs</h2>
+<p>Para criar um PDF são necessários alguns passos mais avançados, mas uma vez configurados, pode-se gerar quantos PDFs quiser para qualquer projeto novo do mkdocs na mesma instalação da máquina.</p>
+<p>As dependências necessárias são:</p>
+<ul>
+<li>mintty (através do msys2)</li>
+<li>cairo</li>
+<li>pango</li>
+<li>gdk-pixbuf2</li>
+<li>glib2</li>
+<li>weasyprint</li>
+<li>mkdocs-to-pdf</li>
+</ul>
+<h4 id="instalando-o-mintty">Instalando o mintty:</h4>
+<ul>
+<li>Baixe o msy2 do site <a href="https://www.msys2.org/">https://www.msys2.org/</a></li>
+<li>Instale a versão correta para o sistema operacional (estará na opção 1: Download the installer)</li>
+<li>Faça a instalação padrão dele.</li>
+</ul>
+<h4 id="instalando-o-cairo-pango-gdk-pixbuf2-e-glib2">Instalando o cairo, pango, gdk-pixbuf2 e glib2</h4>
+<p>Abra o terminal do mintty (MSYS2 MINGW64) e entre com os comandos:</p>
+<p>Atualizar o mintty:</p>
+<pre><code>pacman -Syu
+</code></pre>
+<p>Instalar o cairo:</p>
+<pre><code>pacman -S mingw-w64-x86-cairo
+</code></pre>
+<p>Instalar o pango:</p>
+<pre><code>pacman -S mingw-w64-x86-pango
+</code></pre>
+<p>Instalar o gdk-pixbuf2</p>
+<pre><code>pacman -S mingw-w64-x86-gdk-pixbuf2
+</code></pre>
+<p>Instalar o glib2</p>
+<pre><code>pacman -S mingw-w64-x86-glib2
+</code></pre>
+<p>Após a instalação dos pacotes, feche a janela do mintty.</p>
+<h4 id="configurando-as-variaveis-de-ambiente">Configurando as variáveis de ambiente</h4>
+<p>Configure as variáveis de ambiente para que essas bibliotecas fiquem acessíveis ao weasyprint. Os passos para o Windows estão abaixo:</p>
+<ul>
+<li>Abra as variáveis de ambiente e, em variáveis do sistema, crie uma nova variável.</li>
+<li>Para o nome da variável digite: <code>WEASYPRINT_DLL_DIRECTORIES</code></li>
+<li>Para o valor, será incluída a pasta bin da instalação do mintty. Geralmente ela fica em: <code>C:\msys64\mingw64\bin</code>.</li>
+</ul>
+<p>Feito isso, clique em ok e feche a janela.</p>
+<h4 id="instalando-o-weasyprint">Instalando o weasyprint</h4>
+<p>Abra o terminal no modo de administrador e digite:</p>
+<pre><code class="language-python">pip install weasyprint --upgrade
+</code></pre>
+<h4 id="instalando-o-mkdocs-to-pdf">Instalando o mkdocs-to-pdf</h4>
+<p>Ainda no terminal com o modo de administrador:</p>
+<pre><code class="language-python">pip install mkdocs-to-pdf
+</code></pre>
+<p>No seu projeto mkdocs, abra, no Visual Studio Code, o arquivo <code>mkdocs.yml</code> e adicione a dependência do plugin:</p>
+<pre><code>plugins:
+    - to-pdf:
+</code></pre>
+<p>Agora, quando rodar o <code>mkdocs build</code>, um PDF será criado junto com o site.</p></div>
+</div>
+</div>
+<footer class="col-md-12">
+<hr/>
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+</footer>
+<script src="../../js/bootstrap.bundle.min.js"></script>
+<script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+<script src="../../js/base.js"></script>
+<div aria-hidden="true" aria-labelledby="keyboardModalLabel" class="modal" id="mkdocs_keyboard_modal" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+<button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+</div>
+<div class="modal-body">
+<table class="table">
+<thead>
+<tr>
+<th style="width: 20%;">Keys</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="help shortcut"><kbd>?</kbd></td>
+<td>Open this help</td>
+</tr>
+<tr>
+<td class="next shortcut"><kbd>n</kbd></td>
+<td>Next page</td>
+</tr>
+<tr>
+<td class="prev shortcut"><kbd>p</kbd></td>
+<td>Previous page</td>
+</tr>
+<tr>
+<td class="search shortcut"><kbd>s</kbd></td>
+<td>Search</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="modal-footer">
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

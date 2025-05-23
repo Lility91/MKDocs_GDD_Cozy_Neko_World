@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html data-bs-theme="auto" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="None" name="description"/>
+<link href="img/favicon.ico" rel="shortcut icon"/>
+<title>Game Design Document (GDD)</title>
+<link href="css/bootstrap.min.css" rel="stylesheet"/>
+<link href="css/fontawesome.min.css" rel="stylesheet"/>
+<link href="css/brands.min.css" rel="stylesheet"/>
+<link href="css/solid.min.css" rel="stylesheet"/>
+<link href="css/v4-font-face.min.css" rel="stylesheet"/>
+<link href="css/base.css" rel="stylesheet"/>
+<link disabled="" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" id="hljs-light" rel="stylesheet"/>
+<link disabled="" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" id="hljs-dark" rel="stylesheet"/>
+<link href="css/style.css" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/python.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/javascript.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/html.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/css.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/bash.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/yaml.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/json.min.js"></script>
+<script>hljs.highlightAll();</script>
+<link href="pdf\document.pdf" rel="alternate" title="PDF" type="application/pdf"/></head>
+<body class="homepage">
+<div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+<div class="container">
+<a class="navbar-brand" href=".">Game Design Document (GDD)</a>
+<!-- Expander button -->
+<button aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbar-collapse" data-bs-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<!-- Expanded navigation -->
+<div class="navbar-collapse collapse" id="navbar-collapse">
+<!-- Main navigation -->
+<ul class="nav navbar-nav">
+<li class="nav-item">
+<a aria-current="page" class="nav-link active" href=".">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="other/tut/">Tutorial mkdocs</a>
+</li>
+</ul>
+<ul class="nav navbar-nav ms-md-auto">
+<li class="nav-item">
+<a class="nav-link disabled" rel="prev">
+<i class="fa fa-arrow-left"></i> Previous
+                                </a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="other/tut/" rel="next">
+                                    Next <i class="fa fa-arrow-right"></i>
+</a>
+</li>
+<li class="nav-item dropdown">
+<button aria-expanded="false" aria-label="Toggle theme" class="nav-link dropdown-toggle" data-bs-display="static" data-bs-toggle="dropdown" id="theme-menu">
+<i class="fa-solid fa-circle-half-stroke fa-fw"></i>
+<span class="d-lg-none ms-2">Toggle theme</span>
+</button>
+<ul class="dropdown-menu dropdown-menu-end">
+<li>
+<button aria-pressed="false" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+<i class="fa-solid fa-sun fa-fw"></i>
+<span class="ms-2">Light</span>
+<i class="fa-solid fa-check ms-auto d-none"></i>
+</button>
+</li>
+<li>
+<button aria-pressed="false" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+<i class="fa-solid fa-moon fa-fw"></i>
+<span class="ms-2">Dark</span>
+<i class="fa-solid fa-check ms-auto d-none"></i>
+</button>
+</li>
+<li>
+<button aria-pressed="true" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
+<i class="fa-solid fa-circle-half-stroke fa-fw"></i>
+<span class="ms-2">Auto</span>
+<i class="fa-solid fa-check ms-auto"></i>
+</button>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<script src="js/darkmode.js"></script>
+<div class="container">
+<div class="row">
+<div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+<div class="navbar-header">
+<button class="navbar-toggler collapsed" data-bs-target="#toc-collapse" data-bs-toggle="collapse" title="Table of Contents" type="button">
+<span class="fa fa-angle-down"></span>
+</button>
+</div>
+<div class="navbar-collapse collapse card bg-body-tertiary" id="toc-collapse">
+<ul class="nav flex-column">
+<li class="nav-item" data-bs-level="1"><a class="nav-link" href="#game-design-document">GAME DESIGN DOCUMENT</a>
+<ul class="nav flex-column">
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#game-name">Game Name:</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#technical-specs">TECHNICAL SPECS</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#game-play">GAME PLAY</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#design-document">DESIGN DOCUMENT</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div></div>
+<div class="col-md-9" role="main">
+<h1 id="game-design-document">GAME DESIGN DOCUMENT</h1>
+<p><small>Template based on Unity's GDD Template. Available at: <a href="https://connect-prd-cdn.unity.com/20201215/83f3733d-3146-42de-8a69-f461d6662eb1/Game-Design-Document-Template.pdf">Unity's GDD Template</a></small></p>
+<h2 id="game-name">Game Name:</h2>
+<hr/>
+<h3 id="genre">Genre:</h3>
+<p>Genre</p>
+<h3 id="game-elements">Game Elements:</h3>
+<p>Game elements are the basic activities the player will be doing for fun</p>
+<h3 id="player">Player:</h3>
+<p>The number of players that can play the game at once</p>
+<hr/>
+<h2 id="technical-specs">TECHNICAL SPECS</h2>
+<h3 id="technical-form">Technical Form:</h3>
+<p>Basically there are 2D graphics (flat) and 3D graphics (form)</p>
+<h3 id="view">View:</h3>
+<p>Camera view from which the player will experience the game</p>
+<h3 id="platform">Platform:</h3>
+<p>iOS, Android, Mac, PC, Console...</p>
+<h3 id="language">Language:</h3>
+<p>C#, C++, Ruby, Java</p>
+<h3 id="device">Device:</h3>
+<p>PC, Mobile, Console</p>
+<hr/>
+<h2 id="game-play">GAME PLAY</h2>
+<p>Use the game play section to create a descriptive paragraph about how the game is played. You want the use tor imagine they are actually playing the game. Try not to use generic (i.e., broad, non-descriptive) terms when writing about the game play. For example, few readers want to hear statements such as, “enemy_1 will have more hit points than enemy_2.” Instead, it’s better to make statements like, “The Lazarus Fighter has more armour than the Apollo Fighter.”</p>
+<h3 id="game-play-outline">Game Play Outline</h3>
+<p>This outline will vary depending on the type of game.</p>
+<ul>
+<li>Opening the game application</li>
+<li>Game options</li>
+<li>Story synopsis</li>
+<li>Modes</li>
+<li>Game elements</li>
+<li>Game levels</li>
+<li>Player’s controls</li>
+<li>Winning</li>
+<li>Losing</li>
+<li>End</li>
+<li>Why is all this fun?</li>
+</ul>
+<h3 id="key-features">Key Features</h3>
+<p>Key features are a list of game elements that are attractive to the player.</p>
+<hr/>
+<h2 id="design-document">DESIGN DOCUMENT</h2>
+<p>This document describes how GameObjects behave, how they’re controlled and their properties. This is often referred to as the “mechanics” of the game. This documentation is primarily concerned with the game itself. This part of the document is meant to be modular, meaning you could have several different Game Design Documents attached to the Concept Document.</p>
+<h3 id="design-guidelines">Design Guidelines</h3>
+<p>This is an important statement about any creative restrictions that need to be considered and includes brief statements about the general (i.e., overall) goal of the design.</p>
+<h3 id="game-design-definitions">Game Design Definitions</h3>
+<p>This section established the definition of the game play. Definitions should include how a player wins, loses, transitions between levels, and the main focus of the gameplay.</p>
+<h3 id="game-flowchart">Game Flowchart</h3>
+<p>The game flowchart provides a visual of how the different game elements and their properties interact. Game flowcharts should represent Objects, Properties, and Actions present in the game. Each of these items should have a number reference to where they exist within the game mechanics document.</p>
+<ul>
+<li>Menu</li>
+<li>Synopsis</li>
+<li>Game Play</li>
+<li>Player Control</li>
+<li>Game Over (Winning and Losing)</li>
+</ul>
+<h3 id="player-definition">Player Definition</h3>
+<ul>
+<li>Use this section for quick descriptions that define the player</li>
+<li>Use the Player Properties section (below) to define the properties for each player. Player Properties can be affected by the player’s action or interaction with other game elements. Define the properties and how they affect the player’s current game.</li>
+<li>Use the Player Rewards section to make a list of all objects that affect the player in a positive way. Define these objects by describing what affect they cause and how the player can use the object.</li>
+</ul>
+<h4 id="player-definitions">Player Definitions</h4>
+<p>A suggested list may include:</p>
+<ul>
+<li>Health</li>
+<li>Weapons</li>
+<li>Actions</li>
+</ul>
+<h4 id="player-properties">Player Properties</h4>
+<p>Each property should mention a feedback as a result of the property changing.</p>
+<h4 id="player-rewards-power-ups-and-pick-ups">Player Rewards (power-ups and pick-ups)</h4>
+<p>Make a list of all objects that affect the player in a positive way (e.g., health replenished).</p>
+<h3 id="user-interface-ui">User Interface (UI)</h3>
+<p>This is where you’ll include a description of the user’s control of the game. Think about which buttons on a device would be best suited for the game. Consider what the worst layout is, then ask yourself if your UI is it still playable. A visual representation can be added where you relate the physical controls to the actions in the game. When designing the UI, it may be valuable to research quality control and user interface (UI) design information.</p></div>
+</div>
+</div>
+<footer class="col-md-12">
+<hr/>
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+</footer>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+<script src="js/base.js"></script>
+<div aria-hidden="true" aria-labelledby="keyboardModalLabel" class="modal" id="mkdocs_keyboard_modal" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+<button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+</div>
+<div class="modal-body">
+<table class="table">
+<thead>
+<tr>
+<th style="width: 20%;">Keys</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="help shortcut"><kbd>?</kbd></td>
+<td>Open this help</td>
+</tr>
+<tr>
+<td class="next shortcut"><kbd>n</kbd></td>
+<td>Next page</td>
+</tr>
+<tr>
+<td class="prev shortcut"><kbd>p</kbd></td>
+<td>Previous page</td>
+</tr>
+<tr>
+<td class="search shortcut"><kbd>s</kbd></td>
+<td>Search</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="modal-footer">
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+<!--
+MkDocs version : 1.6.1
+Build Date UTC : 2025-05-17 21:40:07.123872+00:00
+-->
