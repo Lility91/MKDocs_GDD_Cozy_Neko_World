@@ -1,0 +1,4 @@
+theme: minima
+# Define a pasta base para seu site Jekyll
+# Assim ele vai buscar o index.md dentro de docs/
+source: docs
