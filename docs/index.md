@@ -73,7 +73,11 @@ O jogo é um farm/social-simulator com mecânicas de breeding para a conquista d
 - O relacionamento do jogador com os NPCs determina o end-game do jogo. 
 
 ### Referências Principais:
-Wajas, Neopets, Flight Rising, Stardew Valley, Animal Crossing.
+Mood/Aparência Geral: Animal Crossing e Neopets;
+Farming: Stardew Valley e Cloud Meadow;
+Exploração no World: Genshin e Infinity Nikki;
+Manipulação Genética: Flight Rising e Wajas;
+Dating Simulator: Monster Prom e Mystic Messenger (mostra se o personagem gostou ou não da interação e a quantidade de pontos de "carinho" ou "amor").
 
 ---
 
@@ -87,6 +91,14 @@ Ao acordar, o personagem se vê no centro de uma praça, o gato de duas caldas q
 
 ### Eventos Anteriores:
 - EM CONSTRUÇÃO -
+Em relação à história do protagonista, gostaria de deixá-lo o mais "folha em branco" possível para que o jogador possa lhe atribuir o passado/personalidade que quiser.
+Em relação ao mundo:
+No mundo de XXX(Nome a ser definido), pessoas(?) e animais vivem em paz, numa comunidade otimista e auto-sustentável numa ilha flutuante(?). Entre esses animais existem alguns que são mágicos por natureza, descendentes dos deuses que regem XXX.
+- Nekomatas(?), gatos de duas caudas descendentes do deus YYY, regente do solo fértil de XXX;
+- Sunnies(?), gatos alados, descendentes do deus WWW, regente dos céus e do sol;
+- Mercat(?), gatos-sereia com rabo de peixe, descendentes da deusa ZZZ, regente do mar e da luz.
+
+
 
 ---
 
@@ -100,9 +112,9 @@ O jogador pode escolher entre o avatar de protagonista feminino ou masculino, am
 - EM CONSTRUÇÃO -
 
 #### Pets:
-- Nekomata: Gato de duas caudas;
-- Sunnies: Gato alado;
-- Mercat: Gato sereia.
+- Nekomata(?): Gato de duas caudas;
+- Sunnies(?): Gato alado;
+- Mercat(?): Gato sereia.
 
 ### Ferramentas:
 - EM CONSTRUÇÃO -
