@@ -2,8 +2,6 @@
 layout: default
 title: Cozy Neko World - GDD
 ---
-#Bem-vindo ao GDD
-
 # Cozy Neko World
 
 <small>Template based on Unity's GDD Template. Available at: [Unity's GDD Template](https://connect-prd-cdn.unity.com/20201215/83f3733d-3146-42de-8a69-f461d6662eb1/Game-Design-Document-Template.pdf)
