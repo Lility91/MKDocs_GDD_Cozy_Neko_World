@@ -4,7 +4,7 @@ title: Cozy Neko World - GDD
 ---
 # Cozy Neko World
 
-<small>Template based on Unity's GDD Template. Available at: [Unity's GDD Template](https://connect-prd-cdn.unity.com/20201215/83f3733d-3146-42de-8a69-f461d6662eb1/Game-Design-Document-Template.pdf)
+![Concept Inicial Pets](img/Concept_Inicial.png)
 
 ## Nome do Jogo: 
 Cozy Neko World – Título Temporário
@@ -73,11 +73,15 @@ O jogo é um farm/social-simulator com mecânicas de breeding para a conquista d
 - O relacionamento do jogador com os NPCs determina o end-game do jogo. 
 
 ### Referências Principais:
-Mood/Aparência Geral: Animal Crossing e Neopets;
-Farming: Stardew Valley e Cloud Meadow;
-Exploração no World: Genshin e Infinity Nikki;
-Manipulação Genética: Flight Rising e Wajas;
-Dating Simulator: Monster Prom e Mystic Messenger (mostra se o personagem gostou ou não da interação e a quantidade de pontos de "carinho" ou "amor").
+Mood/Aparência Geral: [Animal Crossing](https://animalcrossing.nintendo.com/new-horizons/) e [Neopets](https://www.neopets.com);
+Farming: [Stardew Valley](https://store.steampowered.com/app/413150/Stardew_Valley/) e [Cloud Meadow](https://store.steampowered.com/app/1223750/Cloud_Meadow/);
+Exploração no World: [Genshin Impact](https://genshin.hoyoverse.com/en/home) e [Infinity Nikki](https://store.steampowered.com/app/3164330/Infinity_Nikki/);
+Manipulação Genética: [Flight Rising](https://www1.flightrising.com) e [Wajas](https://www.wajas.com/home_landing.php);
+Dating Simulator: [Monster Prom](https://store.steampowered.com/app/743450/Monster_Prom/) e [Mystic Messenger](https://apps.apple.com/us/app/mystic-messenger/id1116027365) (mostra se o personagem gostou ou não da interação e a quantidade de pontos de "carinho" ou "amor").
+
+### Moodboard
+
+
 
 ---
 
@@ -214,3 +218,4 @@ Make a list of all objects that affect the player in a positive way (e.g., healt
 
 This is where you’ll include a description of the user’s control of the game. Think about which buttons on a device would be best suited for the game. Consider what the worst layout is, then ask yourself if your UI is it still playable. A visual representation can be added where you relate the physical controls to the actions in the game. When designing the UI, it may be valuable to research quality control and user interface (UI) design information.
 
+<small>Template based on Unity's GDD Template. Available at: [Unity's GDD Template](https://connect-prd-cdn.unity.com/20201215/83f3733d-3146-42de-8a69-f461d6662eb1/Game-Design-Document-Template.pdf)
