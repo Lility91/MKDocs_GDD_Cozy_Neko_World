@@ -73,15 +73,19 @@ O jogo é um farm/social-simulator com mecânicas de breeding para a conquista d
 - O relacionamento do jogador com os NPCs determina o end-game do jogo. 
 
 ### Referências Principais:
-Mood/Aparência Geral: [Animal Crossing](https://animalcrossing.nintendo.com/new-horizons/) e [Neopets](https://www.neopets.com);
+Mood/Aparência Geral: [Animal Crossing](https://animalcrossing.nintendo.com/new-horizons/), [Super Mario Odyssey](https://www.nintendo.com/pt-br/store/products/super-mario-odyssey-switch/?srsltid=AfmBOoohMS2JJBFibZcr_LlpDbggHP5b0NA7W8RTKTSQhZLM-pMdju8o) e [Kirby Forgotten Lands](https://www.nintendo.com/pt-br/store/products/kirby-and-the-forgotten-land-switch/?srsltid=AfmBOopiiC8G-ZpTDUBIwqemhdt_9BDHVc0lpF7GmetnnGM6spNmn8td);
+
 Farming: [Stardew Valley](https://store.steampowered.com/app/413150/Stardew_Valley/) e [Cloud Meadow](https://store.steampowered.com/app/1223750/Cloud_Meadow/);
+
 Exploração no World: [Genshin Impact](https://genshin.hoyoverse.com/en/home) e [Infinity Nikki](https://store.steampowered.com/app/3164330/Infinity_Nikki/);
+
 Manipulação Genética: [Flight Rising](https://www1.flightrising.com) e [Wajas](https://www.wajas.com/home_landing.php);
-Dating Simulator: [Monster Prom](https://store.steampowered.com/app/743450/Monster_Prom/) e [Mystic Messenger](https://apps.apple.com/us/app/mystic-messenger/id1116027365) (mostra se o personagem gostou ou não da interação e a quantidade de pontos de "carinho" ou "amor").
+
+Dating Simulator: [Monster Prom](https://store.steampowered.com/app/743450/Monster_Prom/) e [MeChat](https://apps.apple.com/us/app/mechat-interactive-stories/id1536157979) (mostra se o personagem gostou ou não da interação e o status do relacionamento).
 
 ### Moodboard
 
-
+![Moodboard] (img/Moodboard(redu).png)
 
 ---
 
