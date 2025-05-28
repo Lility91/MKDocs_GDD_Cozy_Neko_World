@@ -85,7 +85,7 @@ Dating Simulator: [Monster Prom](https://store.steampowered.com/app/743450/Monst
 
 ### Moodboard
 
-![Moodboard](img/Moodboard(redu).png)
+![Moodboard do Jogo](img/Moodboard(redu).png)
 
 ---
 
