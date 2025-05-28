@@ -408,26 +408,29 @@
 <p>Para consultar a documentação oficial do mkdocs, <a href="https://www.mkdocs.org/">clique aqui</a></p>
 <h2 id="titulo">Título</h2>
 <p>Os títulos são escritos com o cerquilho (#) sendo que:</p>
-<pre><code class="language-md"># para título 1
-## para título 2
-### para título 3
-#### para título 4
-##### para título 5
-</code></pre>
+<div class="codehilite"><pre><span></span><code><span class="gh"># para título 1</span>
+<span class="gu">## para título 2</span>
+<span class="gu">### para título 3</span>
+<span class="gu">#### para título 4</span>
+<span class="gu">##### para título 5</span>
+</code></pre></div>
+
 <h2 id="paragrafos">Parágrafos</h2>
 <p>Todos os parágrafos devem ter uma linha entre eles, entre listas e imagens, por exemplo, o texto abaixo:</p>
-<pre><code class="language-md">Este é o primeiro parágrafo.
+<div class="codehilite"><pre><span></span><code>Este é o primeiro parágrafo.
 Este é o segundo parágrafo.
-</code></pre>
+</code></pre></div>
+
 <p>Será impresso assim:</p>
 <p>Este é o primeiro parágrafo.
 Este é o segundo parágrafo.</p>
 <h2 id="listas">Listas</h2>
 <p>Listas não ordenadas são criadas utilizando o hífen. O exemplo abaixo é formatado desta forma:</p>
-<pre><code class="language-md">- Item 1
-- Item 2
-- Item 3
-</code></pre>
+<div class="codehilite"><pre><span></span><code><span class="k">-</span><span class="w"> </span>Item 1
+<span class="k">-</span><span class="w"> </span>Item 2
+<span class="k">-</span><span class="w"> </span>Item 3
+</code></pre></div>
+
 <p>É exibido desta forma:</p>
 <ul>
 <li>Item 1</li>
@@ -435,10 +438,11 @@ Este é o segundo parágrafo.</p>
 <li>Item 3</li>
 </ul>
 <p>Listas ordenadas podem ser criadas utilizando o número na frente do elemento:</p>
-<pre><code class="language-md">1. Item 1
-2. Item 2
-3. Item 3
-</code></pre>
+<div class="codehilite"><pre><span></span><code><span class="k">1.</span> Item 1
+<span class="k">2.</span> Item 2
+<span class="k">3.</span> Item 3
+</code></pre></div>
+
 <p>Exibe:</p>
 <ol>
 <li>Item 1</li>
@@ -447,12 +451,13 @@ Este é o segundo parágrafo.</p>
 </ol>
 <h2 id="tabelas">Tabelas</h2>
 <p>Sintace:</p>
-<pre><code class="language-md">| Head 1 | Head 2 | Head 3 |
+<div class="codehilite"><pre><span></span><code>| Head 1 | Head 2 | Head 3 |
 | ------ | ------ | ------ |
 | Item 1 | Item 2 | Item 3 |
 | Item 4 | Item 5 | Item 6 |
 | Item 7 | Item 8 | Item 9 |
-</code></pre>
+</code></pre></div>
+
 <p>Sendo exibida assim:</p>
 <table>
 <thead>
@@ -482,35 +487,41 @@ Este é o segundo parágrafo.</p>
 </table>
 <h2 id="links-ancoras">Links (âncoras)</h2>
 <p>Links são criados com a seguinte sintaxe:</p>
-<pre><code class="language-md">[Texto de exibição](url do caminho)
-</code></pre>
+<div class="codehilite"><pre><span></span><code>[<span class="nt">Texto de exibição</span>](<span class="na">url do caminho</span>)
+</code></pre></div>
+
 <p>Por exemplo, para acessar o site do Senac ficaria:</p>
-<pre><code class="language-md">[Senac](https://www.sp.senac.br/)
-</code></pre>
+<div class="codehilite"><pre><span></span><code>[<span class="nt">Senac</span>](<span class="na">https://www.sp.senac.br/</span>)
+</code></pre></div>
+
 <p>Seria exibido:</p>
 <p><a href="https://www.sp.senac.br/">Senac</a></p>
 <h2 id="imagens">Imagens</h2>
 <p>Sintaxe:</p>
-<pre><code class="language-md">![Alt da imagem](url do caminho local ou externa)
-</code></pre>
-<p>Exemplo:</p>
-<pre><code class="language-md">![Exemplo de imagem local](../img/sonic_feio.jpg | 200px)
+<div class="codehilite"><pre><span></span><code>![<span class="nt">Alt da imagem</span>](<span class="na">url do caminho local ou externa</span>)
+</code></pre></div>
 
-![Exemplo de imagem externa](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbkiAGkj63gvkYUlAJGE-fSnqax1zIIW1QPatBouVPQrKMAU79Vqq7YvA7Wpu5Xng2nWgHPFdgwBRR1f7FMXrnmOjWgGzRTzn4Q26UfYzs5OdoiaSSexOXr85TcYdEdeio9GIu7YrmVCsZ/s1600/super+mario+real.jpg)
-</code></pre>
+<p>Exemplo:</p>
+<div class="codehilite"><pre><span></span><code>![<span class="nt">Exemplo de imagem local</span>](<span class="na">../img/sonic_feio.jpg | 200px</span>)
+
+![<span class="nt">Exemplo de imagem externa</span>](<span class="na">https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbkiAGkj63gvkYUlAJGE-fSnqax1zIIW1QPatBouVPQrKMAU79Vqq7YvA7Wpu5Xng2nWgHPFdgwBRR1f7FMXrnmOjWgGzRTzn4Q26UfYzs5OdoiaSSexOXr85TcYdEdeio9GIu7YrmVCsZ/s1600/super+mario+real.jpg</span>)
+</code></pre></div>
+
 <p>Resultado:</p>
 <p><img alt="Exemplo de imagem local" src="../../img/sonic_feio.jpg" /></p>
 <p><img alt="Exemplo de imagem externa" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbkiAGkj63gvkYUlAJGE-fSnqax1zIIW1QPatBouVPQrKMAU79Vqq7YvA7Wpu5Xng2nWgHPFdgwBRR1f7FMXrnmOjWgGzRTzn4Q26UfYzs5OdoiaSSexOXr85TcYdEdeio9GIu7YrmVCsZ/s1600/super+mario+real.jpg" /></p>
 <p>O problema dessa abordagem é que Markdown não suporta ajuste de tamanho de imagem, sendo necessário utilizar html no lugar:</p>
-<pre><code class="language-html">&lt;img src=&quot;/img/sonic_feio.jpg&quot; width=&quot;200&quot;&gt;
-</code></pre>
+<div class="codehilite"><pre><span></span><code><span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;/img/sonic_feio.jpg&quot;</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;200&quot;</span><span class="p">&gt;</span>
+</code></pre></div>
+
 <p>Resultando em:</p>
 <p><img src="/img/sonic_feio.jpg" width="200" alt="Exemplo de imagem local com HTML"></p>
 <p>O problema de usar a sintaxe HTML é que essa informação não é transmitida para o mkdocs quando está convertendo para PDF com mkdoks-to-pdf. Quando precisar que a imagem vá para o PDF, recomenda-se trabalhar a imagem no tamanho correto antes de inserir no documento e, se necessário, considerar deixar bordas transparêntes nas laterais.</p>
 <p>Para ajustar o tamanho de imagem diretamente pelo Markdown, é necessário instalar alguns plugins. Por exemplo, o Pandoc, ou o Krandown, que permitem ajustar a figura com a sintaxe abaixo:</p>
-<pre><code class="language-md">Pandoc: ![Exemplo de imagem local](../img/sonic_feio.jpg){width=250}
-Krandown: ![Exemplo de imagem local](../img/sonic_feio.jpg){: width=250}
-</code></pre>
+<div class="codehilite"><pre><span></span><code>Pandoc: ![<span class="nt">Exemplo de imagem local</span>](<span class="na">../img/sonic_feio.jpg</span>){width=250}
+Krandown: ![<span class="nt">Exemplo de imagem local</span>](<span class="na">../img/sonic_feio.jpg</span>){: width=250}
+</code></pre></div>
+
 <h2 id="transformando-em-um-projeto-html">Transformando em um projeto HTML</h2>
 <p>Se desejar, após a construção do documento, é possível transformar o projeto em um projeto HTML.</p>
 <p>Navegue, via terminal, até a pasta onde está o arquivo mkdocs.yml. Digite <code>mkdocs build</code> e uma pasta chamada <code>site</code> será gerada. Nessa pasta todo o conteúdo me foi convertido em HTML + CSS + JavaScript.</p>
@@ -535,20 +546,25 @@ Krandown: ![Exemplo de imagem local](../img/sonic_feio.jpg){: width=250}
 <h4 id="instalando-o-cairo-pango-gdk-pixbuf2-e-glib2">Instalando o cairo, pango, gdk-pixbuf2 e glib2</h4>
 <p>Abra o terminal do mintty (MSYS2 MINGW64) e entre com os comandos:</p>
 <p>Atualizar o mintty:</p>
-<pre><code>pacman -Syu
-</code></pre>
+<div class="codehilite"><pre><span></span><code>pacman -Syu
+</code></pre></div>
+
 <p>Instalar o cairo:</p>
-<pre><code>pacman -S mingw-w64-x86-cairo
-</code></pre>
+<div class="codehilite"><pre><span></span><code>pacman -S mingw-w64-x86-cairo
+</code></pre></div>
+
 <p>Instalar o pango:</p>
-<pre><code>pacman -S mingw-w64-x86-pango
-</code></pre>
+<div class="codehilite"><pre><span></span><code>pacman -S mingw-w64-x86-pango
+</code></pre></div>
+
 <p>Instalar o gdk-pixbuf2</p>
-<pre><code>pacman -S mingw-w64-x86-gdk-pixbuf2
-</code></pre>
+<div class="codehilite"><pre><span></span><code>pacman -S mingw-w64-x86-gdk-pixbuf2
+</code></pre></div>
+
 <p>Instalar o glib2</p>
-<pre><code>pacman -S mingw-w64-x86-glib2
-</code></pre>
+<div class="codehilite"><pre><span></span><code>pacman -S mingw-w64-x86-glib2
+</code></pre></div>
+
 <p>Após a instalação dos pacotes, feche a janela do mintty.</p>
 <h4 id="configurando-as-variaveis-de-ambiente">Configurando as variáveis de ambiente</h4>
 <p>Configure as variáveis de ambiente para que essas bibliotecas fiquem acessíveis ao weasyprint. Os passos para o Windows estão abaixo:</p>
@@ -560,16 +576,19 @@ Krandown: ![Exemplo de imagem local](../img/sonic_feio.jpg){: width=250}
 <p>Feito isso, clique em ok e feche a janela.</p>
 <h4 id="instalando-o-weasyprint">Instalando o weasyprint</h4>
 <p>Abra o terminal no modo de administrador e digite:</p>
-<pre><code class="language-python">pip install weasyprint --upgrade
-</code></pre>
+<div class="codehilite"><pre><span></span><code><span class="n">pip</span> <span class="n">install</span> <span class="n">weasyprint</span> <span class="o">--</span><span class="n">upgrade</span>
+</code></pre></div>
+
 <h4 id="instalando-o-mkdocs-to-pdf">Instalando o mkdocs-to-pdf</h4>
 <p>Ainda no terminal com o modo de administrador:</p>
-<pre><code class="language-python">pip install mkdocs-to-pdf
-</code></pre>
+<div class="codehilite"><pre><span></span><code><span class="n">pip</span> <span class="n">install</span> <span class="n">mkdocs</span><span class="o">-</span><span class="n">to</span><span class="o">-</span><span class="n">pdf</span>
+</code></pre></div>
+
 <p>No seu projeto mkdocs, abra, no Visual Studio Code, o arquivo <code>mkdocs.yml</code> e adicione a dependência do plugin:</p>
-<pre><code>plugins:
+<div class="codehilite"><pre><span></span><code>plugins:
     - to-pdf:
-</code></pre>
+</code></pre></div>
+
 <p>Agora, quando rodar o <code>mkdocs build</code>, um PDF será criado junto com o site.</p>
 
 
