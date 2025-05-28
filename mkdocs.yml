@@ -31,6 +31,10 @@ nav:
 
 markdown_extensions:
   - tables
+  - admonition
+  - codehilite
+  - footnotes
+
 
 extra_css:
   - css/style.css
