@@ -73,15 +73,26 @@ O jogo é um farm/social-simulator com mecânicas de breeding para a conquista d
 - O relacionamento do jogador com os NPCs determina o end-game do jogo. 
 
 ### Referências Principais:
-Mood/Aparência Geral: [Animal Crossing](https://animalcrossing.nintendo.com/new-horizons/), [Super Mario Odyssey](https://www.nintendo.com/pt-br/store/products/super-mario-odyssey-switch/?srsltid=AfmBOoohMS2JJBFibZcr_LlpDbggHP5b0NA7W8RTKTSQhZLM-pMdju8o) e [Kirby Forgotten Lands](https://www.nintendo.com/pt-br/store/products/kirby-and-the-forgotten-land-switch/?srsltid=AfmBOopiiC8G-ZpTDUBIwqemhdt_9BDHVc0lpF7GmetnnGM6spNmn8td);
   
-Farming: [Stardew Valley](https://store.steampowered.com/app/413150/Stardew_Valley/) e [Cloud Meadow](https://store.steampowered.com/app/1223750/Cloud_Meadow/);
+#### Mood/Aparência Geral: 
+![Appearance](img/Appearance.png)
+[Animal Crossing](https://animalcrossing.nintendo.com/new-horizons/), [Super Mario Odyssey](https://www.nintendo.com/pt-br/store/products/super-mario-odyssey-switch/?srsltid=AfmBOoohMS2JJBFibZcr_LlpDbggHP5b0NA7W8RTKTSQhZLM-pMdju8o) e [Kirby Forgotten Lands](https://www.nintendo.com/pt-br/store/products/kirby-and-the-forgotten-land-switch/?srsltid=AfmBOopiiC8G-ZpTDUBIwqemhdt_9BDHVc0lpF7GmetnnGM6spNmn8td);
   
-Exploração no World: [Genshin Impact](https://genshin.hoyoverse.com/en/home) e [Infinity Nikki](https://store.steampowered.com/app/3164330/Infinity_Nikki/);
+#### Farming: 
+![Farming](img/Farming.png)
+[Stardew Valley](https://store.steampowered.com/app/413150/Stardew_Valley/) e [Cloud Meadow](https://store.steampowered.com/app/1223750/Cloud_Meadow/);
   
-Manipulação Genética: [Flight Rising](https://www1.flightrising.com) e [Wajas](https://www.wajas.com/home_landing.php);
+#### Exploração no World:
+![Exploration](img/World.png)
+[Genshin Impact](https://genshin.hoyoverse.com/en/home) e [Infinity Nikki](https://store.steampowered.com/app/3164330/Infinity_Nikki/);
+
+#### Manipulação Genética: 
+![Genes](img/Genes.png)
+[Flight Rising](https://www1.flightrising.com) e [Wajas](https://www.wajas.com/home_landing.php);
   
-Dating Simulator: [Monster Prom](https://store.steampowered.com/app/743450/Monster_Prom/) e [MeChat](https://apps.apple.com/us/app/mechat-interactive-stories/id1536157979) (mostra se o personagem gostou ou não da interação e o status do relacionamento).
+#### Dating Simulator: 
+![Dating](img/Dating.png)
+[Monster Prom](https://store.steampowered.com/app/743450/Monster_Prom/) e [MeChat](https://apps.apple.com/us/app/mechat-interactive-stories/id1536157979) (mostra se o personagem gostou ou não da interação e o status do relacionamento).
 
 ### Moodboard
 
@@ -118,8 +129,14 @@ O jogador pode escolher entre o avatar de protagonista feminino ou masculino, am
 
 #### NPCs:
 - EM CONSTRUÇÃO -
+- 1x Interesse Romântico BL
+- 1x Interesse Romântico GL
+- 2x Interesse Romântico Hetero
+- 2x NPCs mais velhos não-dateaveis
 
 #### Pets:
+
+![Nekos](img/Kittens.png)
 - Nekomata(?): Gato de duas caudas;
 - Sunnies(?): Gato alado;
 - Mercat(?): Gato sereia.
