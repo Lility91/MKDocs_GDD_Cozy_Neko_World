@@ -95,7 +95,6 @@ O jogo é um farm/social-simulator com mecânicas de breeding para a conquista d
 [Monster Prom](https://store.steampowered.com/app/743450/Monster_Prom/) e [MeChat](https://apps.apple.com/us/app/mechat-interactive-stories/id1536157979) (mostra se o personagem gostou ou não da interação e o status do relacionamento).
 
 ### Moodboard
-
 ![Moodboard do Jogo](img/Moodboard(redu)(background).png)
 
 ---
