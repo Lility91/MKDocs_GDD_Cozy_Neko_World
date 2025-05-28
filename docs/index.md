@@ -7,7 +7,7 @@ title: Cozy Neko World - GDD
 ![Concept Inicial Pets](img/Concept_Inicial.png)
 
 ## Nome do Jogo: 
-Cozy Neko World – Título Temporário
+**Cozy Neko World** – *Título Temporário*
 
 ---
 
@@ -20,7 +20,7 @@ Cozy Neko World – Título Temporário
 Terceira pessoa (Ou Estilo Genshin, ou Estilo Animal Crossing)
 
 ### Plataforma: 
-PC e Nintendo Switch (a girl can dream, Ivan!);
+PC e Nintendo Switch ˜˜(a girl can dream, Ivan!)˜˜;
 
 ### Jogadores:
 Single-Player;

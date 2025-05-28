@@ -25,9 +25,9 @@ theme:
     - json
 
 nav:
-  - Home: index.md
-  - Tutorial mkdocs: other/tut.md
-  - Checklist Acesso e Update MkDots + GitHub Pages: other/checklist.md
+  - GDD: index.md
+ # - Tutorial mkdocs: other/tut.md
+ # - Checklist Acesso e Update MkDots + GitHub Pages: other/checklist.md
 
 markdown_extensions:
   - tables
