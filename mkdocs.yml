@@ -1,4 +1,7 @@
 site_name: Game Design Document (GDD) - Cozy Neko World
+site_url: https://Lility91.github.io/MKDocs_GDD_Cozy_Neko_World/
+use_directory_urls: false
+
 theme: 
   name: mkdocs
   hljs_languages:
