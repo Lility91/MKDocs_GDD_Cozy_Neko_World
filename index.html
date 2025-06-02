@@ -1,1291 +1,148 @@
-
-<!doctype html>
-<html lang="en" class="no-js">
-  <head>
-    
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      
-      
-      
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="auto">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
         <link rel="canonical" href="https://Lility91.github.io/MKDocs_GDD_Cozy_Neko_World/index.html">
-      
-      
-      
-      
-      <link rel="icon" href="assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
-    
-    
-      
-        <title>Cozy Neko World - GDD - Game Design Document (GDD) - Cozy Neko World</title>
-      
-    
-    
-      <link rel="stylesheet" href="assets/stylesheets/main.342714a4.min.css">
-      
-        
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
-      
-      
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>Game Design Document (GDD) - Cozy Neko World</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fontawesome.min.css" rel="stylesheet">
+        <link href="css/brands.min.css" rel="stylesheet">
+        <link href="css/solid.min.css" rel="stylesheet">
+        <link href="css/v4-font-face.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" disabled>
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <link href="css/style.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/python.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/javascript.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/html.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/css.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/bash.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/json.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
 
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Game Design Document (GDD) - Cozy Neko World</a>
 
-    
-    
-      
-    
-    
-      
-        
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-      
-    
-    
-      <link rel="stylesheet" href="css/style.css">
-    
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-    
-      
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
 
-    
-    
-    
-  </head>
-  
-  
-    
-    
-      
-    
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
-  
-    
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" for="__drawer"></label>
-    <div data-md-component="skip">
-      
-        
-        <a href="#cozy-neko-world" class="md-skip">
-          Skip to content
-        </a>
-      
-    </div>
-    <div data-md-component="announce">
-      
-    </div>
-    
-    
-      
-
-  
-
-<header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="index.html" title="Game Design Document (GDD) - Cozy Neko World" class="md-header__button md-logo" aria-label="Game Design Document (GDD) - Cozy Neko World" data-md-component="logo">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
-
-    </a>
-    <label class="md-header__button md-icon" for="__drawer">
-      
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
-    </label>
-    <div class="md-header__title" data-md-component="header-title">
-      <div class="md-header__ellipsis">
-        <div class="md-header__topic">
-          <span class="md-ellipsis">
-            Game Design Document (GDD) - Cozy Neko World
-          </span>
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item dropdown">
+                              <button id="theme-menu" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static" aria-label="Toggle theme" class="nav-link dropdown-toggle">
+                                <i class="fa-solid fa-circle-half-stroke fa-fw"></i>
+                                <span class="d-lg-none ms-2">Toggle theme</span>
+                              </button>
+                              <ul class="dropdown-menu dropdown-menu-end">
+                                <li>
+                                  <button class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+                                    <i class="fa-solid fa-sun fa-fw"></i>
+                                    <span class="ms-2">Light</span>
+                                    <i class="fa-solid fa-check ms-auto d-none"></i>
+                                  </button>
+                                </li>
+                                <li>
+                                  <button class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+                                    <i class="fa-solid fa-moon fa-fw"></i>
+                                    <span class="ms-2">Dark</span>
+                                    <i class="fa-solid fa-check ms-auto d-none"></i>
+                                  </button>
+                                </li>
+                                <li>
+                                  <button class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto" aria-pressed="true">
+                                    <i class="fa-solid fa-circle-half-stroke fa-fw"></i>
+                                    <span class="ms-2">Auto</span>
+                                    <i class="fa-solid fa-check ms-auto"></i>
+                                  </button>
+                                </li>
+                              </ul>
+                            </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="md-header__topic" data-md-component="header-topic">
-          <span class="md-ellipsis">
-            
-              Cozy Neko World - GDD
-            
-          </span>
-        </div>
-      </div>
-    </div>
-    
-      
-        <form class="md-header__option" data-md-component="palette">
-  
-    
-    
-    
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
-    
-  
-    
-    
-    
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
-    
-  
-</form>
-      
-    
-    
-      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
-    
-    
-    
-      
-      
-        <label class="md-header__button md-icon" for="__search">
-          
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-        </label>
-        <div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
-      </label>
-      <nav class="md-search__options" aria-label="Search">
-        
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
-          
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        <script src="js/darkmode.js"></script>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
         </button>
-      </nav>
-      
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Initializing search
-          </div>
-          <ol class="md-search-result__list" role="presentation"></ol>
-        </div>
-      </div>
     </div>
-  </div>
-</div>
-      
+
     
-    
-  </nav>
-  
-</header>
-    
-    <div class="md-container" data-md-component="container">
-      
-      
-        
-          
-        
-      
-      <main class="md-main" data-md-component="main">
-        <div class="md-main__inner md-grid">
-          
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
             
-              
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-
-
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
-  <label class="md-nav__title" for="__drawer">
-    <a href="index.html" title="Game Design Document (GDD) - Cozy Neko World" class="md-nav__button md-logo" aria-label="Game Design Document (GDD) - Cozy Neko World" data-md-component="logo">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
-
-    </a>
-    Game Design Document (GDD) - Cozy Neko World
-  </label>
-  
-  <ul class="md-nav__list" data-md-scrollfix>
-    
-      
-      
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    GDD
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="index.html" class="md-nav__link md-nav__link--active">
-        
-  
-  
-  <span class="md-ellipsis">
-    GDD
-    
-  </span>
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#nome-do-jogo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Nome do Jogo:
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#especificacoes-tecnicas" class="md-nav__link">
-    <span class="md-ellipsis">
-      Especificações Técnicas
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Especificações Técnicas">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#aparencia" class="md-nav__link">
-    <span class="md-ellipsis">
-      Aparência:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#camera" class="md-nav__link">
-    <span class="md-ellipsis">
-      Câmera:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#plataforma" class="md-nav__link">
-    <span class="md-ellipsis">
-      Plataforma:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#jogadores" class="md-nav__link">
-    <span class="md-ellipsis">
-      Jogadores:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#genero" class="md-nav__link">
-    <span class="md-ellipsis">
-      Gênero:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#objetivos" class="md-nav__link">
-    <span class="md-ellipsis">
-      Objetivos
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Objetivos">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#objetivo-principal" class="md-nav__link">
-    <span class="md-ellipsis">
-      Objetivo Principal:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#objetivos-secundarios" class="md-nav__link">
-    <span class="md-ellipsis">
-      Objetivos Secundários:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sistemas-do-jogo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sistemas do Jogo:
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#visao-geral-essencial" class="md-nav__link">
-    <span class="md-ellipsis">
-      Visão Geral Essencial
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Visão Geral Essencial">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#resumo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Resumo:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#aspectos-fundamentais" class="md-nav__link">
-    <span class="md-ellipsis">
-      Aspectos Fundamentais:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#golden-nuggets" class="md-nav__link">
-    <span class="md-ellipsis">
-      Golden Nuggets:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#referencias-principais" class="md-nav__link">
-    <span class="md-ellipsis">
-      Referências Principais:
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Referências Principais:">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#moodaparencia-geral" class="md-nav__link">
-    <span class="md-ellipsis">
-      Mood/Aparência Geral:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#farming" class="md-nav__link">
-    <span class="md-ellipsis">
-      Farming:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#exploracao-no-world" class="md-nav__link">
-    <span class="md-ellipsis">
-      Exploração no World:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#manipulacao-genetica" class="md-nav__link">
-    <span class="md-ellipsis">
-      Manipulação Genética:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#dating-simulator" class="md-nav__link">
-    <span class="md-ellipsis">
-      Dating Simulator:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#moodboard" class="md-nav__link">
-    <span class="md-ellipsis">
-      Moodboard
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#contexto-do-jogo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Contexto do Jogo
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Contexto do Jogo">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#historia-do-jogo" class="md-nav__link">
-    <span class="md-ellipsis">
-      História do Jogo:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#eventos-anteriores" class="md-nav__link">
-    <span class="md-ellipsis">
-      Eventos Anteriores:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#objetos-essenciais-ao-jogo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Objetos Essenciais ao Jogo
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Objetos Essenciais ao Jogo">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#personagens" class="md-nav__link">
-    <span class="md-ellipsis">
-      Personagens:
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Personagens:">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#avatar-do-jogador" class="md-nav__link">
-    <span class="md-ellipsis">
-      Avatar do Jogador:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#npcs" class="md-nav__link">
-    <span class="md-ellipsis">
-      NPCs:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#pets" class="md-nav__link">
-    <span class="md-ellipsis">
-      Pets:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ferramentas" class="md-nav__link">
-    <span class="md-ellipsis">
-      Ferramentas:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#estruturas" class="md-nav__link">
-    <span class="md-ellipsis">
-      Estruturas:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#objetos" class="md-nav__link">
-    <span class="md-ellipsis">
-      Objetos:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conflitos-e-solucoes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Conflitos e Soluções:
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#inteligencia-artificial" class="md-nav__link">
-    <span class="md-ellipsis">
-      Inteligência Artificial:
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#fluxo-do-jogo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Fluxo do Jogo
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Fluxo do Jogo">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#outline-do-fluxo-do-jogo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Outline do Fluxo do Jogo:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#controles" class="md-nav__link">
-    <span class="md-ellipsis">
-      Controles:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#design-document" class="md-nav__link">
-    <span class="md-ellipsis">
-      DESIGN DOCUMENT
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="DESIGN DOCUMENT">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#design-guidelines" class="md-nav__link">
-    <span class="md-ellipsis">
-      Design Guidelines
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#game-design-definitions" class="md-nav__link">
-    <span class="md-ellipsis">
-      Game Design Definitions
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#game-flowchart" class="md-nav__link">
-    <span class="md-ellipsis">
-      Game Flowchart
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#player-definition" class="md-nav__link">
-    <span class="md-ellipsis">
-      Player Definition
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Player Definition">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#player-definitions" class="md-nav__link">
-    <span class="md-ellipsis">
-      Player Definitions
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#player-properties" class="md-nav__link">
-    <span class="md-ellipsis">
-      Player Properties
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#player-rewards-power-ups-and-pick-ups" class="md-nav__link">
-    <span class="md-ellipsis">
-      Player Rewards (power-ups and pick-ups)
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#user-interface-ui" class="md-nav__link">
-    <span class="md-ellipsis">
-      User Interface (UI)
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-    
-  </ul>
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-            
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#nome-do-jogo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Nome do Jogo:
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#especificacoes-tecnicas" class="md-nav__link">
-    <span class="md-ellipsis">
-      Especificações Técnicas
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Especificações Técnicas">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#aparencia" class="md-nav__link">
-    <span class="md-ellipsis">
-      Aparência:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#camera" class="md-nav__link">
-    <span class="md-ellipsis">
-      Câmera:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#plataforma" class="md-nav__link">
-    <span class="md-ellipsis">
-      Plataforma:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#jogadores" class="md-nav__link">
-    <span class="md-ellipsis">
-      Jogadores:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#genero" class="md-nav__link">
-    <span class="md-ellipsis">
-      Gênero:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#objetivos" class="md-nav__link">
-    <span class="md-ellipsis">
-      Objetivos
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Objetivos">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#objetivo-principal" class="md-nav__link">
-    <span class="md-ellipsis">
-      Objetivo Principal:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#objetivos-secundarios" class="md-nav__link">
-    <span class="md-ellipsis">
-      Objetivos Secundários:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sistemas-do-jogo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sistemas do Jogo:
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#visao-geral-essencial" class="md-nav__link">
-    <span class="md-ellipsis">
-      Visão Geral Essencial
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Visão Geral Essencial">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#resumo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Resumo:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#aspectos-fundamentais" class="md-nav__link">
-    <span class="md-ellipsis">
-      Aspectos Fundamentais:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#golden-nuggets" class="md-nav__link">
-    <span class="md-ellipsis">
-      Golden Nuggets:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#referencias-principais" class="md-nav__link">
-    <span class="md-ellipsis">
-      Referências Principais:
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Referências Principais:">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#moodaparencia-geral" class="md-nav__link">
-    <span class="md-ellipsis">
-      Mood/Aparência Geral:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#farming" class="md-nav__link">
-    <span class="md-ellipsis">
-      Farming:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#exploracao-no-world" class="md-nav__link">
-    <span class="md-ellipsis">
-      Exploração no World:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#manipulacao-genetica" class="md-nav__link">
-    <span class="md-ellipsis">
-      Manipulação Genética:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#dating-simulator" class="md-nav__link">
-    <span class="md-ellipsis">
-      Dating Simulator:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#moodboard" class="md-nav__link">
-    <span class="md-ellipsis">
-      Moodboard
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#contexto-do-jogo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Contexto do Jogo
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Contexto do Jogo">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#historia-do-jogo" class="md-nav__link">
-    <span class="md-ellipsis">
-      História do Jogo:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#eventos-anteriores" class="md-nav__link">
-    <span class="md-ellipsis">
-      Eventos Anteriores:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#objetos-essenciais-ao-jogo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Objetos Essenciais ao Jogo
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Objetos Essenciais ao Jogo">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#personagens" class="md-nav__link">
-    <span class="md-ellipsis">
-      Personagens:
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Personagens:">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#avatar-do-jogador" class="md-nav__link">
-    <span class="md-ellipsis">
-      Avatar do Jogador:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#npcs" class="md-nav__link">
-    <span class="md-ellipsis">
-      NPCs:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#pets" class="md-nav__link">
-    <span class="md-ellipsis">
-      Pets:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ferramentas" class="md-nav__link">
-    <span class="md-ellipsis">
-      Ferramentas:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#estruturas" class="md-nav__link">
-    <span class="md-ellipsis">
-      Estruturas:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#objetos" class="md-nav__link">
-    <span class="md-ellipsis">
-      Objetos:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conflitos-e-solucoes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Conflitos e Soluções:
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#inteligencia-artificial" class="md-nav__link">
-    <span class="md-ellipsis">
-      Inteligência Artificial:
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#fluxo-do-jogo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Fluxo do Jogo
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Fluxo do Jogo">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#outline-do-fluxo-do-jogo" class="md-nav__link">
-    <span class="md-ellipsis">
-      Outline do Fluxo do Jogo:
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#controles" class="md-nav__link">
-    <span class="md-ellipsis">
-      Controles:
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#design-document" class="md-nav__link">
-    <span class="md-ellipsis">
-      DESIGN DOCUMENT
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="DESIGN DOCUMENT">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#design-guidelines" class="md-nav__link">
-    <span class="md-ellipsis">
-      Design Guidelines
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#game-design-definitions" class="md-nav__link">
-    <span class="md-ellipsis">
-      Game Design Definitions
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#game-flowchart" class="md-nav__link">
-    <span class="md-ellipsis">
-      Game Flowchart
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#player-definition" class="md-nav__link">
-    <span class="md-ellipsis">
-      Player Definition
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Player Definition">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#player-definitions" class="md-nav__link">
-    <span class="md-ellipsis">
-      Player Definitions
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#player-properties" class="md-nav__link">
-    <span class="md-ellipsis">
-      Player Properties
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#player-rewards-power-ups-and-pick-ups" class="md-nav__link">
-    <span class="md-ellipsis">
-      Player Rewards (power-ups and pick-ups)
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#user-interface-ui" class="md-nav__link">
-    <span class="md-ellipsis">
-      User Interface (UI)
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-          
-          
-            <div class="md-content" data-md-component="content">
-              <article class="md-content__inner md-typeset">
-                
-                  
-
-
+            <li class="nav-item" data-bs-level="1"><a href="#cozy-neko-world" class="nav-link">Cozy Neko World</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#nome-do-jogo" class="nav-link">Nome do Jogo:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#especificacoes-tecnicas" class="nav-link">Especificações Técnicas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#objetivos" class="nav-link">Objetivos</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#sistemas-do-jogo" class="nav-link">Sistemas do Jogo:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#visao-geral-essencial" class="nav-link">Visão Geral Essencial</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#contexto-do-jogo" class="nav-link">Contexto do Jogo</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#objetos-essenciais-ao-jogo" class="nav-link">Objetos Essenciais ao Jogo</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#conflitos-e-solucoes" class="nav-link">Conflitos e Soluções:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#inteligencia-artificial" class="nav-link">Inteligência Artificial:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#fluxo-do-jogo" class="nav-link">Fluxo do Jogo</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#design-document" class="nav-link">DESIGN DOCUMENT</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
 
 <h1 id="cozy-neko-world">Cozy Neko World</h1>
 <p><img alt="Concept Inicial Pets" src="img/Concept_Inicial.png" /></p>
@@ -1478,63 +335,87 @@ No mundo de XXX(Nome a ser definido), pessoas(?) e animais vivem em paz, numa co
 <p>Make a list of all objects that affect the player in a positive way (e.g., health replenished).</p>
 <h3 id="user-interface-ui">User Interface (UI)</h3>
 <p>This is where you’ll include a description of the user’s control of the game. Think about which buttons on a device would be best suited for the game. Consider what the worst layout is, then ask yourself if your UI is it still playable. A visual representation can be added where you relate the physical controls to the actions in the game. When designing the UI, it may be valuable to research quality control and user interface (UI) design information.</p>
-<p><small>Template based on Unity's GDD Template. Available at: <a href="https://connect-prd-cdn.unity.com/20201215/83f3733d-3146-42de-8a69-f461d6662eb1/Game-Design-Document-Template.pdf">Unity's GDD Template</a></p>
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-                
-              </article>
+<p><small>Template based on Unity's GDD Template. Available at: <a href="https://connect-prd-cdn.unity.com/20201215/83f3733d-3146-42de-8a69-f461d6662eb1/Game-Design-Document-Template.pdf">Unity's GDD Template</a></p></div>
             </div>
-          
-          
-<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
-        
-      </main>
-      
-        <footer class="md-footer">
-  
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-copyright">
-  
-  
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
-    </a>
-  
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js"></script>
+        <script src="search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
 </div>
-      
-    </div>
-  </div>
-</footer>
-      
-    </div>
-    <div class="md-dialog" data-md-component="dialog">
-      <div class="md-dialog__inner md-typeset"></div>
-    </div>
-    
-    
-    
-      
-      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant", "navigation.sections", "navigation.expand"], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
-    
-    
-      <script src="assets/javascripts/bundle.13a4f30d.min.js"></script>
-      
-    
-  </body>
+
+    </body>
 </html>
+
+<!--
+MkDocs version : 1.6.1
+Build Date UTC : 2025-06-02 20:13:39.890043+00:00
+-->
