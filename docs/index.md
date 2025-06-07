@@ -45,32 +45,32 @@ Obter e manter o selo de 5 estrelas em sua fazenda por pelo menos 3 meses (in-ga
 ## Sistemas do Jogo:
 
 - Sistema de Coleta de recursos no mundo  
-  <img src="https://static.wikia.nocookie.net/gensin-impact/images/9/9c/Furnishing_A_Thousand_Petals_of_Red_Glaze_Animation.gif/revision/latest?cb=20220116195555" width="300" /><br><br>
+  <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/genshin-impact/2/22/Bamboo_shoot_locations.jpg?width=640" width="500" /><br><br>
 
 - Sistema de Fazendinha para Produção de recursos  
-  <img src="https://64.media.tumblr.com/f60b9dc92836993461008f0a82e575a5/80ad8286c6450c43-1c/s640x960/fe8c625483978d2fb65e3f1d7c30ae90abf70b48.gif" width="300" /><br><br>
+  <img src="https://64.media.tumblr.com/f60b9dc92836993461008f0a82e575a5/80ad8286c6450c43-1c/s640x960/fe8c625483978d2fb65e3f1d7c30ae90abf70b48.gif" width="500" /><br><br>
 
 - Sistema de Compra e Venda de recursos  
-  <img src="https://media1.tenor.com/m/yBx5k1SEYpcAAAAd/katheryne-genshin.gif" width="300" /><br><br>
+  <img src="https://media1.tenor.com/m/yBx5k1SEYpcAAAAd/katheryne-genshin.gif" width="500" /><br><br>
 
 - Sistema de Armazenamento e Libertação de Pets  
-  <img src="https://img.game8.co/3217952/744286d9bcc9b25f30e06b194d67b3cc.jpeg/show" width="300" /><br><br>
+  <img src="https://img.game8.co/3217952/744286d9bcc9b25f30e06b194d67b3cc.jpeg/show" width="500" /><br><br>
 
 - Sistema de Manipulação Genética (Adição e Substituição de Genes) dos Pets  
-  <img src="https://i.imgur.com/yEDjxyv.gif" width="300" /><br><br>
+  <img src="https://i.imgur.com/yEDjxyv.gif" width="500" /><br><br>
 
 - Sistema de Breeding entre Pets  
   <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1623730/extras/gif08_breeding.gif?t=1745898236" width="300" /><br><br>
 
 - Sistema de Geracão de filhotes a partir das cores e genes dos pais  
-  <img src="https://i.imgur.com/h3n7laH.gif" width="300" />
-  <img src="https://i.imgur.com/1mVWhqx.png" width="300" /><br><br>
+  <img src="https://i.imgur.com/h3n7laH.gif" width="500" />
+  <img src="https://i.imgur.com/1mVWhqx.png" width="500" /><br><br>
 
 - Sistema de Amizade/Romance com NPCs  
   <img src="https://platform.polygon.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/8555919/September_Screenshot_2017_04_26_02_13_34.jpg?quality=90&strip=all&crop=0,0,100,100" width="300" /><br><br>
 
 - Sistema de Avaliação da Fazenda  
-  <img src="https://i.redd.it/dwacu3jwk2z41.gif" width="300" /><br><br>
+  <img src="https://i.redd.it/dwacu3jwk2z41.gif" width="500" /><br><br>
 
 
 ---
