@@ -17,16 +17,16 @@ title: Cozy Neko World - GDD
 3D cute/kawaii em tons pastéis;
 
 ### Câmera:
-Terceira pessoa (Ou Estilo Genshin, ou Estilo Animal Crossing)
+Terceira pessoa;
 
 ### Plataforma: 
-PC e Nintendo Switch ˜˜(a girl can dream, Ivan!)˜˜;
+PC e Nintendo Switch ~~(a girl can dream, Ivan!)~~;
 
 ### Jogadores:
 Single-Player;
 
 ### Gênero:
-Cozy, Dating/Farming Simulator, Manipulação Genética;
+Cozy, Dating/Farming Simulator com elementos de Manipulação Genética;
 
 ---
 
@@ -44,11 +44,20 @@ Obter e manter o selo de 5 estrelas em sua fazenda por pelo menos 3 meses (in-ga
 
 ## Sistemas do Jogo:
 - Sistema de Coleta de recursos no mundo;
+![Sistema de Coleta](https://i.giphy.com/media/xUe4ILRPiKFLhynHrI/200.gif)
 - Sistema de Fazendinha para Produção de recursos;
+![Sistema de Fazendinha](https://64.media.tumblr.com/f60b9dc92836993461008f0a82e575a5/80ad8286c6450c43-1c/s640x960/fe8c625483978d2fb65e3f1d7c30ae90abf70b48.gif) 
 - Sistema de Compra e Venda de recursos;
-- Sistema de Compra e Venda de Pets;
-- Sistema de Manipulação Genética dos Pets;
+![Sistema de Loja](https://media1.tenor.com/m/yBx5k1SEYpcAAAAd/katheryne-genshin.gif)
+- Sistema de Armazenamento e Libertação de Pets;
+![Sistema de Armazenamento e Libertação](https://img.game8.co/3217952/744286d9bcc9b25f30e06b194d67b3cc.jpeg/show)
+- Sistema de Manipulação Genética (Adição e Substituição de Genes) dos Pets;
+![Sistema de aplicação de Genes](https://i.imgur.com/yEDjxyv.gif)
 - Sistema de Breeding entre Pets;
+![Sistema de Breeding](https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1623730/extras/gif08_breeding.gif?t=1745898236)
+- Sistema de Geracão de filhotes apartir das cores e genes dos pais; 
+![Sistema de Breeding](https://i.imgur.com/h3n7laH.gif) ![Sistema de probabilidade de genes e cores](https://i.imgur.com/1mVWhqx.png)
+
 - Sistema de Amizade/Romance com NPCs;
 - Sistema de Avaliação da Fazenda.
 
