@@ -74,9 +74,9 @@ O objetivo principal do jogo como experiência é que seja um jogo cozy, sem mui
   <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1623730/extras/gif08_breeding.gif?t=1745898236" width="450" /><br><br>
 
 - Sistema de Geracão de filhotes a partir das cores e genes dos pais  
-  <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  <img src="https://i.imgur.com/h3n7laH.gif" style="flex: 1 1 300px; max-width: 100%; height: auto;" />
-  <img src="https://i.imgur.com/1mVWhqx.png" style="flex: 1 1 300px; max-width: 100%; height: auto;" />
+  <div style="display: flex; justify-content: center; gap: 10px; max-width: 100%;">
+  <img src="https://i.imgur.com/h3n7laH.gif" style="width: 45%; height: auto;" />
+  <img src="https://i.imgur.com/1mVWhqx.png" style="width: 45%; height: auto;" />
 </div>
 
 - Sistema de Amizade/Romance com NPCs  
