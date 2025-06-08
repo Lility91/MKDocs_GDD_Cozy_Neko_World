@@ -74,8 +74,10 @@ O objetivo principal do jogo como experiência é que seja um jogo cozy, sem mui
   <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1623730/extras/gif08_breeding.gif?t=1745898236" width="450" /><br><br>
 
 - Sistema de Geracão de filhotes a partir das cores e genes dos pais  
-  <img src="https://i.imgur.com/h3n7laH.gif" width="450" />
-  <img src="https://i.imgur.com/1mVWhqx.png" width="450" /><br><br>
+  <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <img src="https://i.imgur.com/h3n7laH.gif" style="flex: 1 1 300px; max-width: 100%; height: auto;" />
+  <img src="https://i.imgur.com/1mVWhqx.png" style="flex: 1 1 300px; max-width: 100%; height: auto;" />
+</div>
 
 - Sistema de Amizade/Romance com NPCs  
   <img src="https://platform.polygon.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/8555919/September_Screenshot_2017_04_26_02_13_34.jpg?quality=90&strip=all&crop=0,0,100,100" width="450" /><br><br>
@@ -168,8 +170,10 @@ Na ilha agora pessoas e animais vivem em paz, numa comunidade otimista e auto-su
 
 ### Avatar do Jogador: 
 O jogador pode escolher entre o avatar de protagonista feminino ou masculino, ambos já pré-estabelecidos pelo jogo, porém, com diferenças na estrutura corporal assim como no comprimento do cabelo (Similar aos protagonistas em [Cloud Meadow](https://store.steampowered.com/app/1223750/Cloud_Meadow/) e [Royal Alchemist](https://store.steampowered.com/app/939790/Royal_Alchemist/).<br><br>
-  <img src="https://static.tvtropes.org/pmwiki/pub/images/eve_and_evan.png" width="450" />
-  <img src="https://img.itch.zone/aW1hZ2UvNjI1NzM4LzMzNTI0MTcuanBn/original/io8YEq.jpg" width="450" /><br><br>
+  <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+  <img src="https://static.tvtropes.org/pmwiki/pub/images/eve_and_evan.png" style="flex: 1 1 300px; max-width: 100%; height: auto;" />
+  <img src="https://img.itch.zone/aW1hZ2UvNjI1NzM4LzMzNTI0MTcuanBn/original/io8YEq.jpg" style="flex: 1 1 300px; max-width: 100%; height: auto;" />
+</div>
 
 
 ### NPCs:
@@ -474,7 +478,7 @@ Ao manter a fazenda, o jogador conseguirá receber o ranking 5 estrelas e então
 
 ---
 
-## Controles:
+## Controles
 
 ![Controles](img/Controllers.png)
 Seguindo o modelo oriental, o botão "B"também será usado para confirmação e o botão "A" para cancelar.
