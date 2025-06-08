@@ -53,37 +53,37 @@ O objetivo principal do jogo como experiência é que seja um jogo cozy, sem mui
 ## Sistemas do Jogo
 
 - Sistema de Coleta de Recursos no Mundo  
-  <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/genshin-impact/2/22/Bamboo_shoot_locations.jpg?width=640" width="450" /><br><br>
+  <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/genshin-impact/2/22/Bamboo_shoot_locations.jpg?width=640" style="width: 100%; height: auto;" /><br><br>
 
 - Sistema de Fazendinha para Produção de Recursos  
-  <img src="https://64.media.tumblr.com/f60b9dc92836993461008f0a82e575a5/80ad8286c6450c43-1c/s640x960/fe8c625483978d2fb65e3f1d7c30ae90abf70b48.gif" width="450" /><br><br>
+  <img src="https://64.media.tumblr.com/f60b9dc92836993461008f0a82e575a5/80ad8286c6450c43-1c/s640x960/fe8c625483978d2fb65e3f1d7c30ae90abf70b48.gif" style="width: 100%; height: auto;" /><br><br>
 
 - Sistema de Alimentação de Pets  
-  <img src="https://i.redd.it/u8y1zkpz5d461.jpg" width="450" /><br><br>
+  <img src="https://i.redd.it/u8y1zkpz5d461.jpg" style="width: 100%; height: auto;" /><br><br>
 
 - Sistema de Compra e Venda de Recursos  
-  <img src="https://media1.tenor.com/m/yBx5k1SEYpcAAAAd/katheryne-genshin.gif" width="450" /><br><br>
+  <img src="https://media1.tenor.com/m/yBx5k1SEYpcAAAAd/katheryne-genshin.gif" style="width: 100%; height: auto;" /><br><br>
 
 - Sistema de Armazenamento e Libertação de Pets  
-  <img src="https://img.game8.co/3217952/744286d9bcc9b25f30e06b194d67b3cc.jpeg/show" width="450" /><br><br>
+  <img src="https://img.game8.co/3217952/744286d9bcc9b25f30e06b194d67b3cc.jpeg/show" style="width: 100%; height: auto;" /><br><br>
 
 - Sistema de Manipulação Genética (Adição e Substituição de Genes) dos Pets  
-  <img src="https://i.imgur.com/yEDjxyv.gif" width="450" /><br><br>
+  <img src="https://i.imgur.com/yEDjxyv.gif" style="width: 100%; height: auto;" /><br><br>
 
 - Sistema de Breeding entre Pets  
-  <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1623730/extras/gif08_breeding.gif?t=1745898236" width="450" /><br><br>
+  <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1623730/extras/gif08_breeding.gif?t=1745898236" style="width: 100%; height: auto;" /><br><br>
 
-- Sistema de Geracão de filhotes a partir das cores e genes dos pais  
-  <div style="display: flex; justify-content: center; gap: 5px; max-width: 100%;">
-  <img src="https://i.imgur.com/h3n7laH.gif" style="width: 45%; height: auto;" />
-  <img src="https://i.imgur.com/1mVWhqx.png" style="width: 45%; height: auto;" />
+- Sistema de Geracão de filhotes a partir das cores e genes dos pais
+  <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center;">
+  <img src="https://i.imgur.com/h3n7laH.gif" style="flex: 1 1 300px; max-width: 45%; height: auto;" />
+  <img src="img/FlightRising_Gene.png" style="flex: 1 1 300px; max-width: 45%; height: auto;" />
 </div>
 
 - Sistema de Amizade/Romance com NPCs  
-  <img src="https://platform.polygon.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/8555919/September_Screenshot_2017_04_26_02_13_34.jpg?quality=90&strip=all&crop=0,0,100,100" width="450" /><br><br>
+  <img src="https://platform.polygon.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/8555919/September_Screenshot_2017_04_26_02_13_34.jpg?quality=90&strip=all&crop=0,0,100,100" style="width: 100%; height: auto;" /><br><br>
 
 - Sistema de Avaliação da Fazenda  
-  <img src="https://i.redd.it/dwacu3jwk2z41.gif" width="450" /><br><br>
+  <img src="https://i.redd.it/dwacu3jwk2z41.gif" style="width: 100%; height: auto;" /><br><br>
 
 
 ---
@@ -169,7 +169,7 @@ Na ilha agora pessoas e animais vivem em paz, numa comunidade otimista e auto-su
 ## Personagens
 
 ### Avatar do Jogador: 
-O jogador pode escolher entre o avatar de protagonista feminino ou masculino, ambos já pré-estabelecidos pelo jogo, porém, com diferenças na estrutura corporal assim como no comprimento do cabelo (Similar aos protagonistas em [Cloud Meadow](https://store.steampowered.com/app/1223750/Cloud_Meadow/) e [Royal Alchemist](https://store.steampowered.com/app/939790/Royal_Alchemist/).<br><br>
+O jogador pode escolher entre o avatar de protagonista feminino ou masculino, ambos já pré-estabelecidos pelo jogo, porém, com diferenças na estrutura corporal assim como no comprimento do cabelo (Similar aos protagonistas em [Cloud Meadow](https://store.steampowered.com/app/1223750/Cloud_Meadow/) e [Royal Alchemist](https://store.steampowered.com/app/939790/Royal_Alchemist/).
   <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center;">
   <img src="img/CloudMeadow_Protagonists.png" style="flex: 1 1 300px; max-width: 45%; height: auto;" />
   <img src="img/RoyalAlchemist_Protagonists.png" style="flex: 1 1 300px; max-width: 45%; height: auto;" />
