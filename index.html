@@ -267,9 +267,7 @@
 <p><img alt="Moodboard do Jogo" src="img/Moodboard%28redu%29%28background%29.png" /></p>
 <h3 id="paletas-de-cores">Paletas de Cores:</h3>
 <p>Inspirações de Paletas de Cores:
-<img alt="ElectricBlue+0TeaGreen+Cream+Sunset+Melon" src="https://cdn.shopify.com/s/files/1/1038/1798/files/1._Pastel_Color_Palette_Color_Palette_with_Electric_Blue_Hex_9BF6FF_Tea_Green_Hex_CAFFBF_Cream_Hex_FDFFB6_Sunset_Hex_FFD6A5_Melon_Hex_FFADAD_Color_Palette_with_Hex_Codes.png?v=1705469316" />
-<img alt="PastelBluePalette" src="https://cdn.shopify.com/s/files/1/1038/1798/files/2._Pastel_Blue_Color_Palette_Color_Palette_with_Anti-Flash_White_Hex_EFEFEF_Non_Photo_Blue_Hex_B1E6F3_Sky_Blue_Hex_72DDF7_Argentinian_Blue_Hex_79B8F4_Vista_Blue_Hex_8093F1_Color_Palet.png?v=1705469361" />
-<img alt="PastelGreenColorPalette" src="https://cdn.shopify.com/s/files/1/1038/1798/files/3._Pastel_Green_Color_Palette_Color_Palette_with_Beige_Hex_F1F5D8_Tea_Green_Hex_D6FFC1_Light_Green_Hex_B9FFAF_Light_Green_Hex_97FA9A_Aquamarine_Hex_8AF0BF_Color_Palette_with_Hex_Codes.png?v=1705469376" /></p>
+<img alt="Palettes" src="img/Palettes.png" /></p>
 <hr />
 <h2 id="contexto-do-jogo">Contexto do Jogo</h2>
 <h3 id="historia-do-jogo">História do Jogo:</h3>
@@ -297,7 +295,7 @@ Na ilha agora pessoas e animais vivem em paz, numa comunidade otimista e auto-su
 <hr />
 <h2 id="personagens">Personagens</h2>
 <h3 id="avatar-do-jogador">Avatar do Jogador:</h3>
-<p>O jogador pode escolher entre o avatar de protagonista feminino ou masculino, ambos já pré-estabelecidos pelo jogo, porém, com diferenças na estrutura corporal assim como no comprimento do cabelo (Similar aos protagonistas em <a href="https://store.steampowered.com/app/1223750/Cloud_Meadow/">Cloud Meadow</a> e <a href="https://store.steampowered.com/app/939790/Royal_Alchemist/">Royal Alchemist</a> ).
+<p>O jogador pode escolher entre o avatar de protagonista feminino ou masculino, ambos já pré-estabelecidos pelo jogo, porém, com diferenças na estrutura corporal assim como no comprimento do cabelo (Similar aos protagonistas em <a href="https://store.steampowered.com/app/1223750/Cloud_Meadow/">Cloud Meadow</a> e <a href="https://store.steampowered.com/app/939790/Royal_Alchemist/">Royal Alchemist</a>.<br><br>
   <img src="https://static.tvtropes.org/pmwiki/pub/images/eve_and_evan.png" width="450" />
   <img src="https://img.itch.zone/aW1hZ2UvNjI1NzM4LzMzNTI0MTcuanBn/original/io8YEq.jpg" width="450" /><br><br></p>
 <h3 id="npcs">NPCs:</h3>
@@ -581,40 +579,61 @@ Ao manter a fazenda, o jogador conseguirá receber o ranking 5 estrelas e então
 <p><img alt="Controles" src="img/Controllers.png" />
 Seguindo o modelo oriental, o botão "B"também será usado para confirmação e o botão "A" para cancelar.</p>
 <hr />
-<p>//## DESIGN DOCUMENT</p>
-<p>This document describes how GameObjects behave, how they’re controlled and their properties. This is often referred to as the “mechanics” of the game. This documentation is primarily concerned with the game itself. This part of the document is meant to be modular, meaning you could have several different Game Design Documents attached to the Concept Document.</p>
-<p>//### Design Guidelines</p>
-<p>This is an important statement about any creative restrictions that need to be considered and includes brief statements about the general (i.e., overall) goal of the design.</p>
-<p>//### Game Design Definitions</p>
-<p>This section established the definition of the game play. Definitions should include how a player wins, loses, transitions between levels, and the main focus of the gameplay.</p>
-<p>//### Game Flowchart</p>
-<p>The game flowchart provides a visual of how the different game elements and their properties interact. Game flowcharts should represent Objects, Properties, and Actions present in the game. Each of these items should have a number reference to where they exist within the game mechanics document.</p>
-<ul>
-<li>Menu</li>
-<li>Synopsis</li>
-<li>Game Play</li>
-<li>Player Control</li>
-<li>Game Over (Winning and Losing)</li>
-</ul>
-<p>//### Player Definition</p>
-<ul>
-<li>Use this section for quick descriptions that define the player</li>
-<li>Use the Player Properties section (below) to define the properties for each player. Player Properties can be affected by the player’s action or interaction with other game elements. Define the properties and how they affect the player’s current game.</li>
-<li>Use the Player Rewards section to make a list of all objects that affect the player in a positive way. Define these objects by describing what affect they cause and how the player can use the object.</li>
-</ul>
-<p>//#### Player Definitions</p>
-<p>A suggested list may include:</p>
-<ul>
-<li>Health</li>
-<li>Weapons</li>
-<li>Actions</li>
-</ul>
-<p>//#### Player Properties</p>
-<p>Each property should mention a feedback as a result of the property changing.</p>
-<p>//#### Player Rewards (power-ups and pick-ups)</p>
-<p>Make a list of all objects that affect the player in a positive way (e.g., health replenished).</p>
-<p>//### User Interface (UI)</p>
-<p>This is where you’ll include a description of the user’s control of the game. Think about which buttons on a device would be best suited for the game. Consider what the worst layout is, then ask yourself if your UI is it still playable. A visual representation can be added where you relate the physical controls to the actions in the game. When designing the UI, it may be valuable to research quality control and user interface (UI) design information.</p>
+<!--
+
+//## DESIGN DOCUMENT
+
+This document describes how GameObjects behave, how they’re controlled and their properties. This is often referred to as the “mechanics” of the game. This documentation is primarily concerned with the game itself. This part of the document is meant to be modular, meaning you could have several different Game Design Documents attached to the Concept Document.
+
+
+//### Design Guidelines
+
+This is an important statement about any creative restrictions that need to be considered and includes brief statements about the general (i.e., overall) goal of the design.
+
+
+//### Game Design Definitions
+
+This section established the definition of the game play. Definitions should include how a player wins, loses, transitions between levels, and the main focus of the gameplay.
+
+
+//### Game Flowchart
+
+The game flowchart provides a visual of how the different game elements and their properties interact. Game flowcharts should represent Objects, Properties, and Actions present in the game. Each of these items should have a number reference to where they exist within the game mechanics document.
+
+- Menu
+- Synopsis
+- Game Play
+- Player Control
+- Game Over (Winning and Losing)
+
+
+//### Player Definition
+
+- Use this section for quick descriptions that define the player
+- Use the Player Properties section (below) to define the properties for each player. Player Properties can be affected by the player’s action or interaction with other game elements. Define the properties and how they affect the player’s current game.
+- Use the Player Rewards section to make a list of all objects that affect the player in a positive way. Define these objects by describing what affect they cause and how the player can use the object.
+
+//#### Player Definitions
+
+A suggested list may include:
+
+- Health
+- Weapons
+- Actions
+
+//#### Player Properties
+
+Each property should mention a feedback as a result of the property changing.
+
+//#### Player Rewards (power-ups and pick-ups)
+
+Make a list of all objects that affect the player in a positive way (e.g., health replenished).
+
+//### User Interface (UI)
+
+This is where you’ll include a description of the user’s control of the game. Think about which buttons on a device would be best suited for the game. Consider what the worst layout is, then ask yourself if your UI is it still playable. A visual representation can be added where you relate the physical controls to the actions in the game. When designing the UI, it may be valuable to research quality control and user interface (UI) design information....
+-->
+
 <p><small>Template based on Unity's GDD Template. Available at: <a href="https://connect-prd-cdn.unity.com/20201215/83f3733d-3146-42de-8a69-f461d6662eb1/Game-Design-Document-Template.pdf">Unity's GDD Template</a></p></div>
             </div>
         </div>
@@ -697,5 +716,5 @@ Seguindo o modelo oriental, o botão "B"também será usado para confirmação e
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2025-06-08 21:39:46.841017+00:00
+Build Date UTC : 2025-06-08 22:06:42.910696+00:00
 -->
