@@ -171,8 +171,8 @@ Na ilha agora pessoas e animais vivem em paz, numa comunidade otimista e auto-su
 ### Avatar do Jogador: 
 O jogador pode escolher entre o avatar de protagonista feminino ou masculino, ambos já pré-estabelecidos pelo jogo, porém, com diferenças na estrutura corporal assim como no comprimento do cabelo (Similar aos protagonistas em [Cloud Meadow](https://store.steampowered.com/app/1223750/Cloud_Meadow/) e [Royal Alchemist](https://store.steampowered.com/app/939790/Royal_Alchemist/).<br><br>
   <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center;">
-  <img src="https://static.tvtropes.org/pmwiki/pub/images/eve_and_evan.png" style="flex: 1 1 300px; max-width: 45%; height: auto;" />
-  <img src="https://img.itch.zone/aW1hZ2UvNjI1NzM4LzMzNTI0MTcuanBn/original/io8YEq.jpg" style="flex: 1 1 300px; max-width: 45%; height: auto;" />
+  <img src="img/CloudMeadow_Protagonists.png" style="flex: 1 1 300px; max-width: 45%; height: auto;" />
+  <img src="img/RoyalAlchemist_Protagonists.png" style="flex: 1 1 300px; max-width: 45%; height: auto;" />
 </div>
 
 
