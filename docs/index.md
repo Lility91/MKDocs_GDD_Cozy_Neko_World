@@ -171,29 +171,23 @@ O jogador pode escolher entre o avatar de protagonista feminino ou masculino, am
 No jogo temos oito NPCs com os quais o jogador pode interagir e desenvolver um relacionamento romântico. E mais quatro NPCs não-dateaveis que ajudaram o jogador durante sua jornada na cidade.
 
 ##### NPCs Non-datable
-1. **O prefeito:**
+**1. O prefeito:**
+ **Nome:** Satoshi Yonamine
+ **Idade:** 55 anos
+ **Personalidade:** Calmo e diplomático, geralmente consegue resolver situações de conflito com humor e compromisso. Apesar da idade um pouco mais avançada, não demonstra resistência diante dos avanços da ilha.
+ **Aparência:** Altura mediana, cabelos começando a ficar grisalhos, olhos castanhos.
+ **Neko:** Está sempre acompanhado de um Nikoneko de pelo preto e barriga branca levemente gordinho.
+ **Serventia na cidade:** O jogador não consegue controlar quando encontra o prefeito.
 
-**Nome:** Satoshi Yonamine
+**2. O Menino do Jornal:**
+ **Nome:** Kaito Nakahara
+ **Idade:** 12 anos
+ **Personalidade:** Energético e sabichão, Kaito conhece a ilha como ninguém e sabe onde encontrar tudo e a todos. Sempre. 
+ **Aparência:** Pele bronzeada de tanto tempo no sol, cabelo negro curto e bagunçado pelo vento, costuma usar um kimono azul claro leve para parar o vento e refletir um pouco do sol o que lhe dá maior conforto quando passa o dia todo tentando vender seus jornais.
+ **Neko:** Kaito não é acompanhado por um Neko ainda.
+ **Serventia na cidade:** Sempre que o jogador desejar encontrar um NPC-romanceável, basta perguntar a Kaito.
 
-**Idade:** 55 anos
-
-**Personalidade:** Calmo e diplomático, geralmente consegue resolver situações de conflito com humor e compromisso. Apesar da idade um pouco mais avançada, não demonstra resistência diante dos avanços da ilha.
-
-**Aparência:** Altura mediana, cabelos começando a ficar grisalhos, olhos castanhos.
-
-**Neko:** Está sempre acompanhado de um Nikoneko de pelo preto e barriga branca levemente gordinho.
-
-**Serventia na cidade:** O jogador não consegue controlar quando encontra o prefeito.
-
-2. O Menino do Jornal:
-Nome: Kaito Nakahara
-Idade: 12 anos
-Personalidade: Energético e sabichão, Kaito conhece a ilha como ninguém e sabe onde encontrar tudo e a todos. Sempre. 
-Aparência: Pele bronzeada de tanto tempo no sol, cabelo negro curto e bagunçado pelo vento, costuma usar um kimono azul claro leve para parar o vento e refletir um pouco do sol o que lhe dá maior conforto quando passa o dia todo tentando vender seus jornais.
-Neko: Kaito não é acompanhado por um Neko ainda.
-Serventia na cidade: Sempre que o jogador desejar encontrar um NPC-romanceável, basta perguntar a Kaito.
-
-3. A Fazendeira:
+**3. A Fazendeira:**
 Nome: Emiko Higa
 Idade: 42 anos
 Personalidade:Trabalhadora e quieta, está geralmente com um sorriso gentil no rosto enquanto cuida de sua própria plantação. Ela não é muito de conversa, então, quando diz algo a cidade toda costuma se interessar.
