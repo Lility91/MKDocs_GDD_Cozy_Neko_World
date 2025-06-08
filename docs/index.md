@@ -131,10 +131,7 @@ O jogo é um farm/social-simulator com mecânicas de breeding de pets para a con
 
 ### Paletas de Cores:
 Inspirações de Paletas de Cores:
-![ElectricBlue+0TeaGreen+Cream+Sunset+Melon](https://cdn.shopify.com/s/files/1/1038/1798/files/1._Pastel_Color_Palette_Color_Palette_with_Electric_Blue_Hex_9BF6FF_Tea_Green_Hex_CAFFBF_Cream_Hex_FDFFB6_Sunset_Hex_FFD6A5_Melon_Hex_FFADAD_Color_Palette_with_Hex_Codes.png?v=1705469316)
-![PastelBluePalette](https://cdn.shopify.com/s/files/1/1038/1798/files/2._Pastel_Blue_Color_Palette_Color_Palette_with_Anti-Flash_White_Hex_EFEFEF_Non_Photo_Blue_Hex_B1E6F3_Sky_Blue_Hex_72DDF7_Argentinian_Blue_Hex_79B8F4_Vista_Blue_Hex_8093F1_Color_Palet.png?v=1705469361)
-![PastelGreenColorPalette](https://cdn.shopify.com/s/files/1/1038/1798/files/3._Pastel_Green_Color_Palette_Color_Palette_with_Beige_Hex_F1F5D8_Tea_Green_Hex_D6FFC1_Light_Green_Hex_B9FFAF_Light_Green_Hex_97FA9A_Aquamarine_Hex_8AF0BF_Color_Palette_with_Hex_Codes.png?v=1705469376)
-
+![Palettes](img/Palettes.png)
 ---
 
 ## Contexto do Jogo
@@ -170,7 +167,7 @@ Na ilha agora pessoas e animais vivem em paz, numa comunidade otimista e auto-su
 ## Personagens
 
 ### Avatar do Jogador: 
-O jogador pode escolher entre o avatar de protagonista feminino ou masculino, ambos já pré-estabelecidos pelo jogo, porém, com diferenças na estrutura corporal assim como no comprimento do cabelo (Similar aos protagonistas em [Cloud Meadow](https://store.steampowered.com/app/1223750/Cloud_Meadow/) e [Royal Alchemist](https://store.steampowered.com/app/939790/Royal_Alchemist/) ).
+O jogador pode escolher entre o avatar de protagonista feminino ou masculino, ambos já pré-estabelecidos pelo jogo, porém, com diferenças na estrutura corporal assim como no comprimento do cabelo (Similar aos protagonistas em [Cloud Meadow](https://store.steampowered.com/app/1223750/Cloud_Meadow/) e [Royal Alchemist](https://store.steampowered.com/app/939790/Royal_Alchemist/).<br><br>
   <img src="https://static.tvtropes.org/pmwiki/pub/images/eve_and_evan.png" width="450" />
   <img src="https://img.itch.zone/aW1hZ2UvNjI1NzM4LzMzNTI0MTcuanBn/original/io8YEq.jpg" width="450" /><br><br>
 
@@ -483,7 +480,7 @@ Ao manter a fazenda, o jogador conseguirá receber o ranking 5 estrelas e então
 Seguindo o modelo oriental, o botão "B"também será usado para confirmação e o botão "A" para cancelar.
 
 ---
-
+<!--
 
 //## DESIGN DOCUMENT
 
@@ -535,6 +532,7 @@ Make a list of all objects that affect the player in a positive way (e.g., healt
 
 //### User Interface (UI)
 
-This is where you’ll include a description of the user’s control of the game. Think about which buttons on a device would be best suited for the game. Consider what the worst layout is, then ask yourself if your UI is it still playable. A visual representation can be added where you relate the physical controls to the actions in the game. When designing the UI, it may be valuable to research quality control and user interface (UI) design information.
+This is where you’ll include a description of the user’s control of the game. Think about which buttons on a device would be best suited for the game. Consider what the worst layout is, then ask yourself if your UI is it still playable. A visual representation can be added where you relate the physical controls to the actions in the game. When designing the UI, it may be valuable to research quality control and user interface (UI) design information....
+-->
 
 <small>Template based on Unity's GDD Template. Available at: [Unity's GDD Template](https://connect-prd-cdn.unity.com/20201215/83f3733d-3146-42de-8a69-f461d6662eb1/Game-Design-Document-Template.pdf)
