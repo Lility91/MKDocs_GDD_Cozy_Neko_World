@@ -50,7 +50,7 @@ O objetivo principal do jogo como experiência é que seja um jogo cozy, sem mui
 
 ---
 
-## Sistemas do Jogo:
+## Sistemas do Jogo
 
 - Sistema de Coleta de Recursos no Mundo  
   <img src="https://oyster.ignimgs.com/mediawiki/apis.ign.com/genshin-impact/2/22/Bamboo_shoot_locations.jpg?width=640" width="450" /><br><br>
@@ -126,8 +126,14 @@ O jogo é um farm/social-simulator com mecânicas de breeding de pets para a con
 ![Dating](img/Dating.png)
 [Monster Prom](https://store.steampowered.com/app/743450/Monster_Prom/) e [MeChat](https://apps.apple.com/us/app/mechat-interactive-stories/id1536157979) (mostra se o personagem gostou ou não da interação e o status do relacionamento).
 
-### Moodboard Geral
+### Moodboard Geral:
 ![Moodboard do Jogo](img/Moodboard(redu)(background).png)
+
+### Paletas de Cores:
+Inspirações de Paletas de Cores:
+![ElectricBlue+0TeaGreen+Cream+Sunset+Melon](https://cdn.shopify.com/s/files/1/1038/1798/files/1._Pastel_Color_Palette_Color_Palette_with_Electric_Blue_Hex_9BF6FF_Tea_Green_Hex_CAFFBF_Cream_Hex_FDFFB6_Sunset_Hex_FFD6A5_Melon_Hex_FFADAD_Color_Palette_with_Hex_Codes.png?v=1705469316)
+![PastelBluePalette](https://cdn.shopify.com/s/files/1/1038/1798/files/2._Pastel_Blue_Color_Palette_Color_Palette_with_Anti-Flash_White_Hex_EFEFEF_Non_Photo_Blue_Hex_B1E6F3_Sky_Blue_Hex_72DDF7_Argentinian_Blue_Hex_79B8F4_Vista_Blue_Hex_8093F1_Color_Palet.png?v=1705469361)
+![PastelGreenColorPalette](https://cdn.shopify.com/s/files/1/1038/1798/files/3._Pastel_Green_Color_Palette_Color_Palette_with_Beige_Hex_F1F5D8_Tea_Green_Hex_D6FFC1_Light_Green_Hex_B9FFAF_Light_Green_Hex_97FA9A_Aquamarine_Hex_8AF0BF_Color_Palette_with_Hex_Codes.png?v=1705469376)
 
 ---
 
@@ -161,16 +167,20 @@ Na ilha agora pessoas e animais vivem em paz, numa comunidade otimista e auto-su
 
 ---
 
-## Personagens:
+## Personagens
 
 ### Avatar do Jogador: 
 O jogador pode escolher entre o avatar de protagonista feminino ou masculino, ambos já pré-estabelecidos pelo jogo, porém, com diferenças na estrutura corporal assim como no comprimento do cabelo (Similar aos protagonistas em [Cloud Meadow](https://store.steampowered.com/app/1223750/Cloud_Meadow/) e [Royal Alchemist](https://store.steampowered.com/app/939790/Royal_Alchemist/) ).
+  <img src="https://static.tvtropes.org/pmwiki/pub/images/eve_and_evan.png" width="450" />
+  <img src="https://img.itch.zone/aW1hZ2UvNjI1NzM4LzMzNTI0MTcuanBn/original/io8YEq.jpg" width="450" /><br><br>
+
 
 ### NPCs:
 No jogo temos oito NPCs com os quais o jogador pode interagir e desenvolver um relacionamento romântico. E mais quatro NPCs não-dateaveis que ajudaram o jogador durante sua jornada na cidade.
 
 #### NPCs Não-romanceaveis
-##### O prefeito:<br>
+
+##### 1. O prefeito:<br>
  **Nome:** Satoshi Yonamine<br>
  **Idade:** 55 anos<br>
  **Personalidade:** Calmo e diplomático, geralmente consegue resolver situações de conflito com humor e compromisso. Apesar da idade um pouco mais avançada, não demonstra resistência diante dos avanços da ilha.<br>
@@ -178,7 +188,7 @@ No jogo temos oito NPCs com os quais o jogador pode interagir e desenvolver um r
  **Neko:** Está sempre acompanhado de um Nikoneko de pelo preto e barriga branca levemente gordinho.<br>
  **Serventia na cidade:** O jogador não consegue controlar quando encontra o prefeito.<br>
 
-**2. O Menino do Jornal:**<br>
+##### 2. O Menino do Jornal:<br>
  **Nome:** Kaito Nakahara<br>
  **Idade:** 12 anos<br>
  **Personalidade:** Energético e sabichão, Kaito conhece a ilha como ninguém e sabe onde encontrar tudo e a todos. Sempre. <br>
@@ -186,7 +196,7 @@ No jogo temos oito NPCs com os quais o jogador pode interagir e desenvolver um r
  **Neko:** Kaito não é acompanhado por um Neko ainda.<br>
  **Serventia na cidade:** Sempre que o jogador desejar encontrar um NPC-romanceável, basta perguntar a Kaito.<br>
 
-**3. A Fazendeira:**<br>
+##### 3. A Fazendeira:<br>
  **Nome:** Emiko Nakahara<br>
  **Idade:** 42 anos<br>
  **Personalidade:** Trabalhadora e quieta, está geralmente com um sorriso gentil no rosto enquanto cuida de sua própria plantação. Ela não é muito de conversa, então, quando diz algo a cidade toda costuma se interessar.<br>
@@ -194,7 +204,7 @@ No jogo temos oito NPCs com os quais o jogador pode interagir e desenvolver um r
  **Neko:** Sua neko é uma haneneko cor de pêssego com um degradê suave na ponta do rabo e asas brancas.<br>
  **Serventia na cidade:** Emiko é a personagem responsável por ensinar o jogador o tutorial do sistema de fazenda.<br>
 
-**4. O Quebra-galho**<br>
+##### 4. O Quebra-galho:<br>
  **Nome:** Kenji Aragaki<br>
  **Idade:** 37 anos<br>
  **Personalidade:** Um tanto quanto impaciente, Kenji está geralmente mais interessado no que precisa ser feito do que nos demais. Ele é bastante independente e não costuma interagir mais que o necessário com ninguém, preferindo por vezes comunicar-se por carta ou por mensagens do que pessoalmente.<br>
@@ -205,130 +215,130 @@ No jogo temos oito NPCs com os quais o jogador pode interagir e desenvolver um r
 #### NPCs Romanceáveis
 Os NPCs Romanceáveis são todos "playersexuais" (ou seja, tem interesse no gênero escolhido pelo jogador), mas seus arquétipos podem ser mais atraentes para algumas comunidades específicas do que para outras.
 
-1. Lliang Wei:<br>
-Inspiração: [Zhongli](https://genshin-impact.fandom.com/wiki/Zhongli)<br>
-Nome: Lliang Wei<br>
-Arquétipo: O Protetor Estóico<br>
-Idade: 33 anos<br>
-País de Origem: China<br>
-Ocupação: Curador de Artefatos Antigos<br>
-Personalidade: Calmo, atencioso, gosta de aproveitar as tardes tomando chá e contando histórias.<br>
-Aparência: Alto, com cabelos negros longos e olhos igualmente negros. Geralmente veste roupas um pouco mais formais, com algum artigo ou acessório que remeta a sua origem chinesa.<br>
-Neko: Lliang está sempre acompanhado por seu Haneneko negro com um padrão de escamas douradas ao longo de seu corpo.<br>
-Primeiro contato com o jogador: O jogador encontra Lliang pela primeira vez tomando chá no centro da cidade conversando com o prefeito sobre algum artefato que eles haviam encontrado recentemente, ele volta sua atenção para o jogador e se apresenta assim que percebe a presença do mesmo.<br>
-Papel na cidade: O jogador poderá negociar com Lliang os artefatos que encontrar em suas explorações.<br>
+##### 1. Lliang Wei:<br>
+**Inspiração:** [Zhongli](https://genshin-impact.fandom.com/wiki/Zhongli)<br>
+**Nome:** Lliang Wei<br>
+**Arquétipo:** O Sábio Protetor<br>
+**Idade:** 33 anos<br>
+**País de Origem:** China<br>
+**Ocupação:** Curador de Artefatos Antigos<br>
+**Personalidade:** Calmo, atencioso, gosta de aproveitar as tardes tomando chá e contando histórias.<br>
+**Aparência:** Alto, com cabelos negros longos e olhos igualmente negros. Geralmente veste roupas um pouco mais formais, com algum artigo ou acessório que remeta a sua origem chinesa.<br>
+**Neko:** Lliang está sempre acompanhado por seu Haneneko negro com um padrão de escamas douradas ao longo de seu corpo.<br>
+**Primeiro contato com o jogador:** O jogador encontra Lliang pela primeira vez tomando chá no centro da cidade conversando com o prefeito sobre algum artefato que eles haviam encontrado recentemente, ele volta sua atenção para o jogador e se apresenta assim que percebe a presença do mesmo.<br>
+**Papel na cidade:** O jogador poderá negociar com Lliang os artefatos que encontrar em suas explorações.<br>
 
-2. Luka Vetrova<br>
-Inspiração: [Tartaglia](https://genshin-impact.fandom.com/wiki/Tartaglia)<br>
-Nome: Luka Vetrova<br>
-Arquétipo: O Charmoso Perigoso<br>
-Idade: 25 anos<br>
-País de Origem: Russia<br>
-Ocupação: Mergulhador Free Dive e Patinador Profissional <br>
-Personalidade: Extrovertido, travesso e orgulhoso, Luka está constantemente flertando com o perigo e com as pessoas com as quais gosta de competir.<br>
-Aparência: Cabelos loiros pálidos, olhos azuis e constituição atlética. Luka possui algumas cicatrizes devido às várias encrencas que já se meteu e não tem problema em exibí-las. Está geralmente trajando roupas informais e praianas.<br>
-Neko: Luka está sempre acompanhado de sua Namineko de pelos brancos manchados em laranja e negro como uma carpa.<br>
-Primeiro contato com o jogador: Luka está na praia relaxando após um mergulho quando o jogador o encontra pela primeira vez, Luka já é caloroso com o jogador desde seu primeiro contato, porém, constantemente provoca o jogador quanto à, bem, tudo.<br>
-Papel na cidade: O jogador poderá receber itens ao vencer Luka em suas competições sem sentido e de todo tipo.<br>
+##### 2. Luka Vetrova:<br>
+**Inspiração:** [Tartaglia](https://genshin-impact.fandom.com/wiki/Tartaglia)<br>
+**Nome:** Luka Vetrova<br>
+**Arquétipo:** O Charmoso Perigoso<br>
+**Idade:** 25 anos<br>
+**País de Origem:** Russia<br>
+**Ocupação:** Mergulhador Free Dive e Patinador Profissional <br>
+**Personalidade:** Extrovertido, travesso e orgulhoso, Luka está constantemente flertando com o perigo e com as pessoas com as quais gosta de competir.<br>
+**Aparência:** Cabelos loiros pálidos, olhos azuis e constituição atlética. Luka possui algumas cicatrizes devido às várias encrencas que já se meteu e não tem problema em exibí-las. Está geralmente trajando roupas informais e praianas.<br>
+**Neko:** Luka está sempre acompanhado de sua Namineko de pelos brancos manchados em laranja e negro como uma carpa.<br>
+**Primeiro contato com o jogador:** Luka está na praia relaxando após um mergulho quando o jogador o encontra pela primeira vez, Luka já é caloroso com o jogador desde seu primeiro contato, porém, constantemente provoca o jogador quanto à, bem, tudo.<br>
+**Papel na cidade:** O jogador poderá receber itens ao vencer Luka em suas competições sem sentido e de todo tipo.<br>
 
-3. Thiago Monteverde<br>
-Inspiração: [Halsin](https://baldursgate3.wiki.fextralife.com/Halsin)<br>
-Nome: Thiago Monteverde<br>
-Arquétipo: O Gigante Gentil<br>
-Idade: 30 amos<br>
-País de Origem: Brasil<br>
-Ocupação: Ativista Ambiental<br>
-Personalidade: Afetuoso, carinhoso e paciente, Thiago não pressiona ninguém mas está sempre de ouvidos abertos para qualquer um que precise desabafar com ele. Thiago é também o mais preocupado com o gasto responsável dos recursos da ilha, embora todos concordem com a importância disso.<br>
-Aparência: Thiago é alto, forte e bastante muscular. Sua pele bronzeada e seus olhos castanhos, assim como seus cabelos, parecem sempre estar carregados pelo calor do sol.<br>
-Neko: Thiago está sempre acompanhado por seu Nikoneko castanho cuja pelagem exibe padrões como se fossem os veios de um tronco de árvore.<br>
-Primeiro contato com o jogador: Thiago é encontrado pela primeira vez na loja de Emiko negociando sementes.<br>
-Papel na cidade: Thiago é o responsável por negociar com o jogador novos genes.<br>
+##### 3. Thiago Monteverde:<br>
+**Inspiração:** [Halsin](https://baldursgate3.wiki.fextralife.com/Halsin)<br>
+**Nome:** Thiago Monteverde<br>
+**Arquétipo:** O Gigante Carinhoso<br>
+**Idade:** 30 amos<br>
+**País de Origem:** Brasil<br>
+**Ocupação:** Ativista Ambiental<br>
+**Personalidade:** Afetuoso, carinhoso e paciente, Thiago não pressiona ninguém mas está sempre de ouvidos abertos para qualquer um que precise desabafar com ele. Thiago é também o mais preocupado com o gasto responsável dos recursos da ilha, embora todos concordem com a importância disso.<br>
+**Aparência:** Thiago é alto, forte e bastante muscular. Sua pele bronzeada e seus olhos castanhos, assim como seus cabelos, parecem sempre estar carregados pelo calor do sol.<br>
+**Neko:** Thiago está sempre acompanhado por seu Nikoneko castanho cuja pelagem exibe padrões como se fossem os veios de um tronco de árvore.<br>
+**Primeiro contato com o jogador:** Thiago é encontrado pela primeira vez na loja de Emiko negociando sementes.<br>
+**Papel na cidade:** Thiago é o responsável por negociar com o jogador novos genes.<br>
 
-4. Laurent Deveraux<br>
-Inspiração: [Astarion](https://baldursgate3.wiki.fextralife.com/Astarion)<br>
-Nome: Laurent Deveraux<br>
-Arquétipo: O Playboy Sedutor<br>
-Idade: 23 anos<br>
-País de Origem: França <br>
-Ocupação: Estilista<br>
-Personalidade: Sedutor, sarcástico e chamativo, Laurent gosta de ser o centro das atenções embora tenha dificuldade em manter sua face inexpressiva quando Luka o provoca.<br>
-Aparência: Laurent possui cabelos ruivos e olhos verdes, bochechas altas e bem marcadas assim como um corpo bastante magro.<br>
-Neko: Laurent está frequentemente acompanhado por sua Haneneko totalmente branca.<br>
-Primeiro contato com o jogador: Laurent estará no centro da cidade com um caderno em mãos fazendo anotações quando o jogador o encontrar, mas ele rapidamente fechará o caderno, acusando o jogador de tentar bisbilhotar onde não deve.<br>
-Papel na cidade: No futuro, o papel de Laurent será vender roupas diferentes para que o jogador possa customizar seu avatar, mas não na versão inicial do jogo.<br>
+##### 4. Laurent Deveraux:<br>
+**Inspiração:** [Astarion](https://baldursgate3.wiki.fextralife.com/Astarion)<br>
+**Nome:** Laurent Deveraux<br>
+**Arquétipo:** O Playboy Sedutor<br>
+**Idade:** 23 anos<br>
+**País de Origem:** França <br>
+**Ocupação:** Estilista<br>
+**Personalidade:** Sedutor, sarcástico e chamativo, Laurent gosta de ser o centro das atenções embora tenha dificuldade em manter sua face inexpressiva quando Luka o provoca.<br>
+**Aparência:** Laurent possui cabelos ruivos e olhos verdes, bochechas altas e bem marcadas assim como um corpo bastante magro.<br>
+**Neko:** Laurent está frequentemente acompanhado por sua Haneneko totalmente branca.<br>
+**Primeiro contato com o jogador:** Laurent estará no centro da cidade com um caderno em mãos fazendo anotações quando o jogador o encontrar, mas ele rapidamente fechará o caderno, acusando o jogador de tentar bisbilhotar onde não deve.<br>
+**Papel na cidade:** No futuro, o papel de Laurent será vender roupas diferentes para que o jogador possa customizar seu avatar, mas não na versão inicial do jogo.<br>
 
-5. Norah Quinn<br>
-Inspiração: [Karlach](https://baldursgate3.wiki.fextralife.com/Karlach)<br>
-Nome: Norah Quinn <br>
-Arquétipo: A Gigante Gentil<br>
-Idade: 31 anos <br>
-País de Origem: Irlanda<br>
-Ocupação: Protetora Ambiental<br>
-Personalidade: Alegre, de fala alta e expressiva. Norah é sempre facilmente encontrável, onde quer que esteja, mas, seu temperamento gentil e carinhoso faz todos sentirem-se mais protegidos com ela por perto.<br>
-Aparência: Alta, com um corpo muscular e forte coberto em tatuagens de origem celta. Ela tem sardas, cabelo cor de cobre e olhos castanho avermelhado.<br>
-Neko: Norah está sempre acompanhada de seu Haneneko de pelos avermelhados cujas extremidades são brancas, se assemelhando bastante a uma raposa.<br>
-Primeiro contato com o jogador: Norah estará no mundo, cuidando de um neko ferido quando o jogador a encontra.<br>
-Papel na cidade: Norah será a vendedora de novos nekos para o jogador. Seus nekos disponíveis são aleatórios e sua oferta será rotativa.<br>
+##### 5. Norah Quinn:<br>
+**Inspiração:** [Karlach](https://baldursgate3.wiki.fextralife.com/Karlach)<br>
+**Nome:** Norah Quinn <br>
+**Arquétipo:** A Gigante Gentil<br>
+**Idade:** 31 anos <br>
+**País de Origem:** Irlanda<br>
+**Ocupação:** Protetora Ambiental<br>
+**ersonalidade:** Alegre, de fala alta e expressiva. Norah é sempre facilmente encontrável, onde quer que esteja, mas, seu temperamento gentil e carinhoso faz todos sentirem-se mais protegidos com ela por perto.<br>
+**parência:** Alta, com um corpo muscular e forte coberto em tatuagens de origem celta. Ela tem sardas, cabelo cor de cobre e olhos castanho avermelhado.<br>
+**Neko:** Norah está sempre acompanhada de seu Haneneko de pelos avermelhados cujas extremidades são brancas, se assemelhando bastante a uma raposa.<br>
+**Primeiro contato com o jogador:** Norah estará no mundo, cuidando de um neko ferido quando o jogador a encontra.<br>
+**Papel na cidade:** Norah será a vendedora de novos nekos para o jogador. Seus nekos disponíveis são aleatórios e sua oferta será rotativa.<br>
 
-6. Selene Moreau<br>
-Inspiração: [Minthara](https://baldursgate3.wiki.fextralife.com/Minthara)<br>
-Nome: Selene Moreau<br>
-Arquétipo: A Estrategista Fria<br>
-Idade: 26 anos<br>
-País de Origem: Suíça<br>
-Ocupação: Selene era uma comandante militar antes de chegar na ilha, na ilha,  ela ainda não descobriu exatamente quem quer ser.<br>
-Personalidade: Disciplinada, inteligente e extremamente exigente com os outros e consigo mesma, Selene raramente relaxa e ri, ou mesmo sorri.<br>
-Aparência: Estrutura mediana, cabelo negro e olhos azuis, se veste em roupas mais sérias com um corte que esconde muito de sua pele.<br>
-Neko: Selene raramente está acompanhada por sua Namineko de pelagem cinza azulada.<br>
-Primeiro contato com o jogador: Selene será uma NPC que o jogador apenas terá contato após atingir um certo nível de sucesso em sua fazenda e manutenção, ele encontrará Selene ao tentar encontrar Kenji para pedir uma nova ampliação.<br>
-Papel na cidade: Selene faz parte da avaliação em estrelas da fazenda do jogador.<br>
+##### 6. Selene Moreau:<br>
+**Inspiração:** [Minthara](https://baldursgate3.wiki.fextralife.com/Minthara)<br>
+**Nome:** Selene Moreau<br>
+**Arquétipo:** A Estrategista Fria<br>
+**Idade:** 26 anos<br>
+**País de Origem:** Suíça<br>
+**Ocupação:** Selene era uma comandante militar antes de chegar na ilha, na ilha,  ela ainda não descobriu exatamente quem quer ser.<br>
+**Personalidade:** Disciplinada, inteligente e extremamente exigente com os outros e consigo mesma, Selene raramente relaxa e ri, ou mesmo sorri.<br>
+**Aparência:** Estrutura mediana, cabelo negro e olhos azuis, se veste em roupas mais sérias com um corte que esconde muito de sua pele.<br>
+**Neko:** Selene raramente está acompanhada por sua Namineko de pelagem cinza azulada.<br>
+**Primeiro contato com o jogador:** Selene será uma NPC que o jogador apenas terá contato após atingir um certo nível de sucesso em sua fazenda e manutenção, ele encontrará Selene ao tentar encontrar Kenji para pedir uma nova ampliação.<br>
+**Papel na cidade:** Selene faz parte da avaliação em estrelas da fazenda do jogador.<br>
 
-7. Hana Mizuki<br>
-Inspiração: [Shirahoshi](https://onepiece.fandom.com/wiki/Shirahoshi)<br>
-Nome: Hana Mizuki<br>
-Arquétipo: A Princesa Frágil<br>
-Idade: 19 anos<br>
-País de Origem: Japão<br>
-Ocupação: Treinadora de Nekos<br>
-Personalidade: Doce, tímida e boa com animais. Hana se dá melhor com os nekos da ilha do que com os outros humanos e por conta disso, logo começou a ser capaz de ensinar pequenos truques para eles (não que eles precisassem de ajuda, uma vez que se tratam de criaturas extremamente inteligentes). Sua timidez a faz se sentir frequentemente inapropriada.<br>
-Aparência: Cabelos longos e loiros de natureza delicada, olhos verdes brilhantes e um sorriso gentil. Hana geralmente usa kimonos rosas.<br>
-Neko: Hana está sempre acompanhada por sua Namineko rosa com pelagem em padrões de conchas e pérolas.<br>
-Primeiro contato com o jogador: Hana pode ser encontrada um dia conversando com Kaito, o único humano com quem ela sempre se sentiu confortável conversando.<br>
-Papel na cidade: No futuro, Hana auxiliará o jogador a colocar nekos para trabalhar em sua fazenda, diminuindo o trabalho e constante manutenção que o jogador terá de ter com essa parte do jogo, mas isso não estará na versão inicial.<br>
+##### 7. Hana Mizuki:<br>
+**Inspiração:** [Shirahoshi](https://onepiece.fandom.com/wiki/Shirahoshi)<br>
+**Nome:** Hana Mizuki<br>
+**Arquétipo:** A Princesa Frágil<br>
+**Idade:** 19 anos<br>
+**País de Origem:** Japão<br>
+**Ocupação:** Treinadora de Nekos<br>
+**Personalidade:** Doce, tímida e boa com animais. Hana se dá melhor com os nekos da ilha do que com os outros humanos e por conta disso, logo começou a ser capaz de ensinar pequenos truques para eles (não que eles precisassem de ajuda, uma vez que se tratam de criaturas extremamente inteligentes). Sua timidez a faz se sentir frequentemente inapropriada.<br>
+**Aparência:** Cabelos longos e loiros de natureza delicada, olhos verdes brilhantes e um sorriso gentil. Hana geralmente usa kimonos rosas.<br>
+**Neko:** Hana está sempre acompanhada por sua Namineko rosa com pelagem em padrões de conchas e pérolas.<br>
+**Primeiro contato com o jogador:** Hana pode ser encontrada um dia conversando com Kaito, o único humano com quem ela sempre se sentiu confortável conversando.<br>
+**Papel na cidade:** No futuro, Hana auxiliará o jogador a colocar nekos para trabalhar em sua fazenda, diminuindo o trabalho e constante manutenção que o jogador terá de ter com essa parte do jogo, mas isso não estará na versão inicial.<br>
 
-8. Victoria Brandt<br>
-Inspiração: [Integra](https://hellsing.fandom.com/wiki/Sir_Integral_Fairbrook_Wingates_Hellsing)<br>
-Nome: Victoria Brandt<br>
-Arquétipo: A Nobre Comandante<br>
-Idade: 32 anos<br>
-País de Origem: Alemanha<br>
-Ocupação: Líder da Instituição de Pesquisa Mitológica da Ilha<br>
-Personalidade: Autoritátia, dedicada e levemente workaholic, Victoria constantemente tem demandas para quase todos os demais membros da ilha, apesar de sua forma de falar, os demais entender, em sua maioria, que ela apenas está dedicada à preservação da história da ilha.<br>
-Aparência: Alta, de vestes formais e longo cabelo loiro escuro liso. Seus olhos são acinzentados e ela constantemente possui olheiras sob seus olhos.<br>
-Neko: O nikoneko de Victoria constantemente está dormindo em seu colo ou sua mesa enquanto ela trabalha, ele é rajado de cinza com branco.<br>
-Primeiro contato com o jogador: O jogador encontrará Victoria também em uma de suas visitar ao prefeito quando ela estará lhe dando ordens sobre a preservação da história e mitologia da ilha.<br>
-Papel na cidade: Victoria enviará cartas ao jogador referente à história por trás dos artefatos que ele vender a Lliang, sinal de que de alguma forma o artefato chegou até ela (através do prefeito).<br>
+##### 8. Victoria Brandt:<br>
+**Inspiração:** [Integra](https://hellsing.fandom.com/wiki/Sir_Integral_Fairbrook_Wingates_Hellsing)<br>
+**Nome:** Victoria Brandt<br>
+**Arquétipo:** A Nobre Comandante<br>
+**Idade:** 32 anos<br>
+**País de Origem:** Alemanha<br>
+**Ocupação:** Líder da Instituição de Pesquisa Mitológica da Ilha<br>
+**Personalidade:** Autoritátia, dedicada e levemente workaholic, Victoria constantemente tem demandas para quase todos os demais membros da ilha, apesar de sua forma de falar, os demais entender, em sua maioria, que ela apenas está dedicada à preservação da história da ilha.<br>
+**Aparência:** Alta, de vestes formais e longo cabelo loiro escuro liso. Seus olhos são acinzentados e ela constantemente possui olheiras sob seus olhos.<br>
+**Neko:** O nikoneko de Victoria constantemente está dormindo em seu colo ou sua mesa enquanto ela trabalha, ele é rajado de cinza com branco.<br>
+**Primeiro contato com o jogador:** O jogador encontrará Victoria também em uma de suas visitar ao prefeito quando ela estará lhe dando ordens sobre a preservação da história e mitologia da ilha.<br>
+**Papel na cidade:** Victoria enviará cartas ao jogador referente à história por trás dos artefatos que ele vender a Lliang, sinal de que de alguma forma o artefato chegou até ela (através do prefeito).<br>
 
 ---
 
-## Pets:
+## Pets
 
 ![Nekos](img/Kittens.png)
 
 ### Nikoneko:
 ![Nikoneko](img/Nikoneko.png) 
-Gatos de duas caudas, inspirados nos nekomatas, youkais japoneses. São ligados à terra e flora da ilha.
+- Gatos de duas caudas, inspirados nos nekomatas, youkais japoneses. São ligados à terra e flora da ilha.
 
 ### Namineko:
 ![Namineko](img/Namineko.png)
-Gatos com cauda de sereia no lugar de suas caudas normais, inspirados nas sereias e demais seres metade algo, metade peixe. São ligados à água e ao mar ao redor da ilha.
+- Gatos com cauda de sereia no lugar de suas caudas normais, inspirados nas sereias e demais seres metade algo, metade peixe. São ligados à água e ao mar ao redor da ilha.
 
 ### Haneneko:
 ![Haneneko](img/Haneneko.png)
-Gatos com asas de anjo em suas costas, inspirados em anjos, embora esteja vivos e não sejam anjos. São ligados ao vento e ao céu da ilha.
+- Gatos com asas de anjo em suas costas, inspirados em anjos, embora esteja vivos e não sejam anjos. São ligados ao vento e ao céu da ilha.
 
 ### Hōōneko/Ryūneko:
-Em Desenvolvimentos, serão gatos ligados ao sol e à lua da ilha. Ambos viriam em versões futuras do jogo.
+- Em Desenvolvimentos, serão gatos ligados ao sol e à lua da ilha. Ambos viriam em versões futuras do jogo.
 
 ---
 
@@ -340,7 +350,7 @@ Usada para cavar um buraco no chão.
 - Regador;
 Usado para regar a semente recém-plantada no chão.
 
-### Estruturas:
+### Estruturas
 
 #### Na cidade:
 - Prefeitura;
@@ -353,7 +363,7 @@ Usado para regar a semente recém-plantada no chão.
 - Área de Exposição de nekos (alocado pelo jogador);
 - Área de Breeding (alocado pelo jogador);
 
-### Objetos:
+### Objetos
 
 #### Na cidade:
 - Placas para orientação do jogador;
@@ -367,12 +377,12 @@ Usado para regar a semente recém-plantada no chão.
 
 ---
 
-## Conflitos e Soluções:
+## Conflitos e Soluções
 O principal conflito do jogo é o jogador encontrar seu local com essa comunidade e desenvolver um relacionamento com os NPCs que a compõe. Cabe ao jogador escolher se irá buscar uma relação amigável com todos, ignorar alguns, desenvolver um romance ou não.
 
 ---
 
-## Inteligência Artificial:
+## Inteligência Artificial
 - O neko escolhido pelo jogador deve acompanhá-lo quando na cidade;
 - Os demais nekos devem mover-se enquanto expostos na fazenda, apenas para que não fiquem estáticos e isso seja um pouco desconfortável;
 - Os NPCs devem se mover levemente quando na cidade (em animações idle ou de caminhada mesmo);
@@ -384,45 +394,113 @@ O principal conflito do jogo é o jogador encontrar seu local com essa comunidad
 
 ## Fluxo do Jogo
 
-Use the game play section to create a descriptive paragraph about how the game is played. You want the use tor imagine they are actually playing the game. Try not to use generic (i.e., broad, non-descriptive) terms when writing about the game play. For example, few readers want to hear statements such as, “enemy_1 will have more hit points than enemy_2.” Instead, it’s better to make statements like, “The Lazarus Fighter has more armour than the Apollo Fighter.”
+O jogador inicia o jogo sem nenhum relacionamento com os NPCs da cidade e apenas com o seu Nikoneko gerado sem genes e com cores que ele escolheu quando viu "algo"na grama alta.
+Desse ponto em diante, o jogador pode explorar o restante da ilha para coletar recursos, conversar com NPCs para começar a desenvolver um relacionamento (seja de amizade ou algo a mais) com eles, começar com a plantação em sua fazenda e estabelecer um fluxo de jogo estável (onde o jogador consegue gerar alimento suficiente para seu Nikoneko e ainda sobrar recursos para negociar na cidade).
+Conforme o jogador aumenta seu nível de relacionamento com os NPCs, explora o mundo fora da cidade e conquista mais nekoins, ele poderá comprar genes dos NPCs da ilha, o que permitirá que ele aplique genes em seu nikoneko, modificando sua aparência. O jogador pode também optar por manter seu nikoneko sem genes e preferir juntar as nekoins para comprar um segundo neko.
+Desse ponto em diante, o jogador poderá:
+- Comprar outros nekos;
+- Colocar genes que modifiquem sua aparência neles;
+- Breedá-los para conseguir mais nekos;
+- Ser remunerado por libertar seus nekos e vender seus recursos sobressalentes;
+- Desenvolver sua fazenda da forma que desejar;
+- Desenvolver um relacionamento com o NPC-romanceável que desejar.
+Ao manter a fazenda, o jogador conseguirá receber o ranking 5 estrelas e então poderá ver os créditos, o que não o impede de continuar jogando por mais quanto tmepo desejar nesse mesmo save.
 
-### Outline do Fluxo do Jogo:
+### Outline do Fluxo de Jogo
 
-This outline will vary depending on the type of game.
+#### Outline do Início do Jogo:
 
-- Opening the game application
-- Game options
-- Story synopsis
-- Modes
-- Game elements
-- Game levels
-- Player’s controls
-- Winning
-- Losing
-- End
-- Why is all this fun?
+1. Abrir o jogo através da Steam ou do menu do Switch;
+2. Na tela de início de jogo estarão visíveis as opções:
+ - Novo Jogo;
+ - Carregar Jogo;
+- Galeria;
+ - Galeria de Genes Descobertos;
+ - Galeria de Cenas de Encontros Descobertas;
+- Opções;
+- Sair;
+3. Ao clicar em jogar pela primeira vez, o jogador deverá escolher e nomear seu avatar;
+4. Cutscene do avatar seguindo o Nikoneko e caindo no buraco;
+5. Tutorial jogável para seguir o prefeito pela cidade e até a fazenda que será do jogador, o jogador recebe o prompt para nomeá-la se quiser;
+6. No início do dia seguinte, o jogador ao explorar a ilha recebe os tutoriais de exploração do mundo fora da vila, de plantação e coleta na fazenda.
+7. O jogador recebe instruções claras sobre como produzir e/ou encontrar comida suficiente para alimentar seu Nikoneko;
+8. O jogador é introduzido ao conceito de genes e mudança de aparência de nekos e como adquirir mais.
 
-### Controles:
-- EM CONSTRUÇÃO -
+#### Loop Diário do Jogo:
+
+- Acordar e cuidar da fazenda;
+ - Alimentar os nekos expostos;
+ - Colher;
+ - Plantar;
+ - Regar;
+ - Verificar o cercado de breeding;
+ - Coletar o ovo;
+- Ir até a cidade;
+ - Vender recursos extras;
+ - Comprar o que desejar;
+ - Conversar com os NPCs que encontrar;
+- Explorar o world fora da vila;
+ - Coletar mais recursos;
+- Retornar a fazenda;
+ - Mudar os nekos expostos;
+ - Aplicar genes aos nekos;
+ - Breedar nekos.
+
+#### Expansão e Progressão:
+
+- Contratar Kenji para expandir áreas da fazenda;
+ - Área de colheita/plantação;
+ - Área de breeding;
+ - Área de exposição de nekos;
+- Subir nível de moral com a vila;
+ - Aumentar nível de amizade com diversos NPCs;
+ - Aumentar nível de amizade com algum NPC para mais do que amizade;
+ - Obtenção de genes através da amizade/algo mais com NPCs;
+
+#### Metajogo:
+
+- Auxiliar na repopulação de nekos;
+ - Colocar genes em nekos;
+ - Breedar nekos;
+ - Libertar nekos;
+- Customização da fazenda;
+ - Movimentação e colocação de itens para customizar a aparência da fazenda;
+ - Exposição de nekos cuja aparência agrade o jogador;
+- Obtenção de avaliação 5 estrelas;
+
+#### Pós-progresso:
+- O jogo segue indefinidamente;
+- O jogador define seus próprios objetivos;
+ - Estética;
+ - Coleções;
+ - Socialização.
 
 ---
 
-## DESIGN DOCUMENT
+## Controles:
+
+![Controles](img/Controllers.png)
+Seguindo o modelo oriental, o botão "B"também será usado para confirmação e o botão "A" para cancelar.
+
+---
+
+
+//## DESIGN DOCUMENT
 
 This document describes how GameObjects behave, how they’re controlled and their properties. This is often referred to as the “mechanics” of the game. This documentation is primarily concerned with the game itself. This part of the document is meant to be modular, meaning you could have several different Game Design Documents attached to the Concept Document.
 
 
-### Design Guidelines
+//### Design Guidelines
 
 This is an important statement about any creative restrictions that need to be considered and includes brief statements about the general (i.e., overall) goal of the design.
 
 
-### Game Design Definitions
+//### Game Design Definitions
 
 This section established the definition of the game play. Definitions should include how a player wins, loses, transitions between levels, and the main focus of the gameplay.
 
 
-### Game Flowchart
+//### Game Flowchart
 
 The game flowchart provides a visual of how the different game elements and their properties interact. Game flowcharts should represent Objects, Properties, and Actions present in the game. Each of these items should have a number reference to where they exist within the game mechanics document.
 
@@ -433,13 +511,13 @@ The game flowchart provides a visual of how the different game elements and thei
 - Game Over (Winning and Losing)
 
 
-### Player Definition
+//### Player Definition
 
 - Use this section for quick descriptions that define the player
 - Use the Player Properties section (below) to define the properties for each player. Player Properties can be affected by the player’s action or interaction with other game elements. Define the properties and how they affect the player’s current game.
 - Use the Player Rewards section to make a list of all objects that affect the player in a positive way. Define these objects by describing what affect they cause and how the player can use the object.
 
-#### Player Definitions
+//#### Player Definitions
 
 A suggested list may include:
 
@@ -447,15 +525,15 @@ A suggested list may include:
 - Weapons
 - Actions
 
-#### Player Properties
+//#### Player Properties
 
 Each property should mention a feedback as a result of the property changing.
 
-#### Player Rewards (power-ups and pick-ups)
+//#### Player Rewards (power-ups and pick-ups)
 
 Make a list of all objects that affect the player in a positive way (e.g., health replenished).
 
-### User Interface (UI)
+//### User Interface (UI)
 
 This is where you’ll include a description of the user’s control of the game. Think about which buttons on a device would be best suited for the game. Consider what the worst layout is, then ask yourself if your UI is it still playable. A visual representation can be added where you relate the physical controls to the actions in the game. When designing the UI, it may be valuable to research quality control and user interface (UI) design information.
 
