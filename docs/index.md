@@ -171,13 +171,14 @@ O jogador pode escolher entre o avatar de protagonista feminino ou masculino, am
 No jogo temos oito NPCs com os quais o jogador pode interagir e desenvolver um relacionamento romântico. E mais quatro NPCs não-dateaveis que ajudaram o jogador durante sua jornada na cidade.
 
 ##### NPCs Non-datable
-**1. O prefeito:**
- **Nome:** Satoshi Yonamine
- **Idade:** 55 anos
- **Personalidade:** Calmo e diplomático, geralmente consegue resolver situações de conflito com humor e compromisso. Apesar da idade um pouco mais avançada, não demonstra resistência diante dos avanços da ilha.
- **Aparência:** Altura mediana, cabelos começando a ficar grisalhos, olhos castanhos.
- **Neko:** Está sempre acompanhado de um Nikoneko de pelo preto e barriga branca levemente gordinho.
- **Serventia na cidade:** O jogador não consegue controlar quando encontra o prefeito.
+ **1. O prefeito:**
+ 
+  **Nome:** Satoshi Yonamine
+  **Idade:** 55 anos
+  **Personalidade:** Calmo e diplomático, geralmente consegue resolver situações de conflito com humor e compromisso. Apesar da idade um pouco mais avançada, não demonstra resistência diante dos avanços da ilha.
+  **Aparência:** Altura mediana, cabelos começando a ficar grisalhos, olhos castanhos.
+  **Neko:** Está sempre acompanhado de um Nikoneko de pelo preto e barriga branca levemente gordinho.
+  **Serventia na cidade:** O jogador não consegue controlar quando encontra o prefeito.
 
 **2. O Menino do Jornal:**
  **Nome:** Kaito Nakahara
