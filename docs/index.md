@@ -73,7 +73,7 @@ O objetivo principal do jogo como experiência é que seja um jogo cozy, sem mui
 - Sistema de Breeding entre Pets  
   <img src="https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1623730/extras/gif08_breeding.gif?t=1745898236" style="width: 100%; height: auto;" /><br><br>
 
-- Sistema de Geracão de filhotes a partir das cores e genes dos pais
+- Sistema de Geracão de filhotes a partir das cores e genes dos pais (Mais informações na Sessão "**Breeding e Manipulação Genética** no Menu)
   <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center;">
   <img src="https://i.imgur.com/h3n7laH.gif" style="flex: 1 1 300px; max-width: 45%; height: auto;" />
   <img src="img/FlightRising_Gene.png" style="flex: 1 1 300px; max-width: 45%; height: auto;" />
@@ -140,28 +140,45 @@ O jogo é um farm/social-simulator com mecânicas de breeding de pets para a con
 
 ### História do Jogo:
 O personagem principal está no ponto de ônibus, está calor e ele está cansado, seus olhos pesados... Ele está quase adormecendo quando vê um estranho gato com dois rabos (nekomata) atravessar a rua correndo, ele segue o gato através da grama alta e quando acha que está quase o alcançando... Cai em um grande buraco.
+
 O interior do buraco é grande e a queda longa, o personagem principal cai por ele enquanto ultrapassa alguns itens, mas antes que ele acerte o chão, ele desmaia.
+
 Ao acordar, o personagem se vê no centro de uma praça, o gato de duas caldas que ele estava perseguindo o observando de perto, ao se levantar, ele percebe um outro personagem humano se aproximando.
+
 O prefeito da cidade apresenta a si mesmo e também a ilha onde estão de forma superficial. Apesar da confusão do personagem principal, o prefeito insiste que ele fique com a chave para uma fazenda que está sem uso até decidir se gostaria de ficar ou ir embora. 
+
 O gato de duas caudas responsável pela queda do personagem na ilha, que o prefeito diz ser um Nikoneko, segue o personagem conforme ele anda pela ilha, interagindo e conhecendo os demais NPCs que eu sua maioria, também possuem algum tipo de gato mágico ao lado. 
+
 Ao fim do primeiro dia (determinado pelo jogador ao entrar na casa da fazenda que lhe foi dada) o jogador será convidado a descansar. O segundo dia o levará através do tutorial de coleta no mundo, negociação com as lojas (para compra de sementes) e então de plantação.
+
 Desse ponto em diante, o jogo é guiado pelo ritmo do jogador.
 
 
 ### Eventos Anteriores:
 **Em relação à história do protagonista:**
+
 Pouco se fala do protagonista, apenas que ele estava sem rumo e sem esperanças enquanto esperava o ônibus antes de cair no buraco seguindo o nikoneko.
 
 **Em relação ao mundo:**
+
 Muito antes dos primeiros humanos chegarem em **Fushijima**, a ilha era habitada por dois irmãos deuses. **Kazetobi**, o deus do vento, era energético e inquieto, voando por entre as nuvens no céu sem nenhuma preocupação em sua mente. **Uminari**, seu irmão, por outro lado, preferia passar seu tempo nas profundezas, refletindo sobre a sensação das correntes marinhas em sua pele. Apesar de tão diferentes, os irmãos não brigavam, mas, também não costumavam passar muito tempo juntos, interagindo pouco ou quase nada, ao menos, até quando sentiram algo de diferente na ilha antes vazia que ficava entre seus domínios.
+
 Do centro da ilha havia nascido um grande broto e dele surgiu **Tsuchime**, deusa da terra e **Tsuchime** era doce, gentil e acima de tudo, criativa.
+
 Enquanto os irmãos, apaixonados por ela, brigavam por sua atenção, **Tsuchime** estava criando montanhas e vales, a areia da praia, tornando a terra fértil para que flores e árvores crescessem dela.
+
 Mas as flores que nasciam eram fracas e lhes faltava luz e então, **Tsuchime** e **Kazetobi** criaram o **sol**.
+
 Mas o calor excessivo do sol era demais para a fauna da ilha e **Tsuchime** decidiu ir até **Uminari**, produzindo com ele a **lua**.
+
 Quando a ilha já estava bela o suficiente, **Tsuchime** ajoelhou-se no centro da ilha e com suas mãos pequenas, moldou na argila os primeiros **Nikonekos**, com caudas duplas longas e flexíveis, tornando-os expressivos mesmo enquanto ainda eram apenas esculturas de barro. E então, com um beijo suave contra suas cabeças, Tsuchime lhes deu a vida, um por um e seus **Nikonekos** logo habitaram a ilha, correndo por entre as folhas e escalando as árvores.
+
 **Kazetobi**, buscando novamente pela atencão de **Tsuchime**, moldou com as nuvens os primeiros **Hanenekos**, dando-lhes asas fortes que lhes permitiria voar e brincar na brisa como ele mesmo fazia. Com um bater de palmas forte e sonoro, deu-lhes a vida, e eles logo desceram para brincar com os **Nikonekos** criados por **Tsuchime**.
+
 **Uminari**, por sua vez, moldou em seus braços a espuma das ondas para criar os primeiros ****Naminekos**, com longas caudas de peixe que lher permitiriam nadar pelos mares como ele mesmo fazia. Com um soprar de bolhas, lhes deu a vida e eles logo subiram para se juntar aos **Nikonekos** e **Hanenekos** brincando na areia da praia.
+
 Daquela época até agora, muitos outros seres surgiram na ilha, mas, nenhuim tão místico como os nekos criados pelos três deuses.
+
 Na ilha agora pessoas e animais vivem em paz, numa comunidade otimista e auto-sustentável, onde aqueles que estavam perdidos fora da ilha podem encontrar suas verdadeiras vocações e desejos.
 
 ---
@@ -388,7 +405,7 @@ Diferente dos demais sistemas que são um pouco mais comuns, acredito que esse s
 
 Inspirado em jogos como [Flight Rising](https://www1.flightrising.com), [Wajas](https://www.wajas.com/home_landing.php), [Aywas](https://www.aywas.com), [Lorwolf](https://www.lorwolf.com), [Khimeros](https://www.khimeros.com), [ChickenSmoothie](https://www.chickensmoothie.com) e [Felisfire](https://felisfire.com), a ideia é que cada pet, Neko, no caso desse jogo, pertence tem "slots" (pedaços de seu corpo) que podem receber "genes" que mudam o padrão em seus pelos de alguma forma.
 Alguns dos sites acime, Wajas, por exemplo, possui um sistema bastante complexo onde além dos padrões existentes dos pelos poderem ou não ser herdados pelos filhotes, ainda existe a % de visibilidade dele. Eles também possuem mutações, que modificam ainda mais a estética do animal.
-Exemplo: <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww1.flightrising.com%2Fforums%2Fibaz%2F1082701&psig=AOvVaw3BNeCyQ7yJQn1Z43OWQ15C&ust=1749512437942000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIjsw_H_4o0DFQAAAAAdAAAAABAE" style="width: 100%; height: auto;" />
+Exemplo: <img src="https://i.imgur.com/dDa9zmW.png" style="width: 100%; height: auto;" />
 
 Nesse jogo, porém, iremos focar em algo mais semelhante ao Flight Rising, que facilita essa questão toda ao separar os corpos dos pets tem duas partes (corpo e asas, no caso do Flight Rising) e genes diferentes afetarem essas partes. Genes Primários afetam o corpo, Genes Secundários afetam as asas. No caso do Flight Rising, ainda existe o Gene Terciário, que afeta o corpo todo por CIMA dos demais. Flight Rising também simplifica o sistema de herança de cores dos pais, uma vez que ele trabalha com cores nominais pré-selecionadas e não cores em seus códigos hexagonais, dessa forma, é possível ter maior controle sobre a quantidade de cores que existem entre uma cor X e outra cor Y.
 Exemplo: <img src="img/ForeseeProgeny.png" style="width: 100%; height: auto;" />
@@ -398,7 +415,7 @@ Os dragões nesse exemplo são da cor Bubblegum e Cerulean (nos corpos) e podemo
 <img src="img/Bubblegum_Cerulean.png" style="width: 100%; height: auto;" />
 O que quer dizer que o filhote teria mesmo mais chances de ser branco, bege ou cinza do que colorido. Embora eu queira manter o sistema de ter cores preestabelecidas, uma coisa que eu gostaria de adicionar nesse sistema é de que, a roda de cores SEMPRE irá aleatoriezar a cor do filhote pelo espaço menor, dessa forma, as chances do jogador "acertar" a cor que quer com o filhote ficam maiores o que num jogo com menor interação do que os mencionados acima, parece uma forma boa de diminuir a frustração do jogador caso ele acabe dando azar e o filhote saia de uma cor que não era a que ele queria.
 
-Dessa forma, em Cozy Neko World(Título Temporário), o sistema de Breeding funcionaria da seguinte forma:
+Dessa forma, em **Cozy Neko World** *(Título Temporário)*, o sistema de Breeding funcionaria da seguinte forma:
  - O jogador coloca dois nekos da mesma espécie para dar breed;
  - O jogo verifica a raridade dos genes deles, genes mais comuns tem maior probabilidade de serem passados para os filhotes, enquanto genes mais raros tem menor probabilidade;
  - O jogo então verifica em qual posição de sua roda cromática estão as cores dos pais e determina qual o sentido mais curto entre essas cores (ou seja, qual sentido tem MENOS cores entre elas);
@@ -420,8 +437,13 @@ Dessa forma, em Cozy Neko World(Título Temporário), o sistema de Breeding func
 ## Fluxo do Jogo
 
 O jogador inicia o jogo sem nenhum relacionamento com os NPCs da cidade e apenas com o seu Nikoneko gerado sem genes e com cores que ele escolheu quando viu "algo"na grama alta.
+
+
 Desse ponto em diante, o jogador pode explorar o restante da ilha para coletar recursos, conversar com NPCs para começar a desenvolver um relacionamento (seja de amizade ou algo a mais) com eles, começar com a plantação em sua fazenda e estabelecer um fluxo de jogo estável (onde o jogador consegue gerar alimento suficiente para seu Nikoneko e ainda sobrar recursos para negociar na cidade).
+
+
 Conforme o jogador aumenta seu nível de relacionamento com os NPCs, explora o mundo fora da cidade e conquista mais nekoins, ele poderá comprar genes dos NPCs da ilha, o que permitirá que ele aplique genes em seu nikoneko, modificando sua aparência. O jogador pode também optar por manter seu nikoneko sem genes e preferir juntar as nekoins para comprar um segundo neko.
+
 Desse ponto em diante, o jogador poderá:
 - Comprar outros nekos;
 - Colocar genes que modifiquem sua aparência neles;
@@ -429,6 +451,7 @@ Desse ponto em diante, o jogador poderá:
 - Ser remunerado por libertar seus nekos e vender seus recursos sobressalentes;
 - Desenvolver sua fazenda da forma que desejar;
 - Desenvolver um relacionamento com o NPC-romanceável que desejar.
+
 Ao manter a fazenda, o jogador conseguirá receber o ranking 5 estrelas e então poderá ver os créditos, o que não o impede de continuar jogando por mais quanto tmepo desejar nesse mesmo save.
 
 ### Outline do Fluxo de Jogo
@@ -562,5 +585,12 @@ Make a list of all objects that affect the player in a positive way (e.g., healt
 
 This is where you’ll include a description of the user’s control of the game. Think about which buttons on a device would be best suited for the game. Consider what the worst layout is, then ask yourself if your UI is it still playable. A visual representation can be added where you relate the physical controls to the actions in the game. When designing the UI, it may be valuable to research quality control and user interface (UI) design information....
 -->
+---
+
+## Anexos
+
+- [Conto_Extra_Extra_Nova_Cara_Na_Cidade](anexos/Extra_Extra_Nova_Cara_Na_Cidade.pdf)
+
+---
 
 <small>Template based on Unity's GDD Template. Available at: [Unity's GDD Template](https://connect-prd-cdn.unity.com/20201215/83f3733d-3146-42de-8a69-f461d6662eb1/Game-Design-Document-Template.pdf)
