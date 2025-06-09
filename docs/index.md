@@ -585,12 +585,12 @@ Make a list of all objects that affect the player in a positive way (e.g., healt
 
 This is where you’ll include a description of the user’s control of the game. Think about which buttons on a device would be best suited for the game. Consider what the worst layout is, then ask yourself if your UI is it still playable. A visual representation can be added where you relate the physical controls to the actions in the game. When designing the UI, it may be valuable to research quality control and user interface (UI) design information....
 -->
----
 
 ## Anexos
 
-- [Conto_Extra_Extra_Nova_Cara_Na_Cidade](anexos/Extra_Extra_Nova_Cara_Na_Cidade)
+- [Conto_Extra_Extra_Nova_Cara_Na_Cidade](anexos/Extra_Extra_Nova_Cara_Na_Cidade.md)
 
+---
 ---
 
 <small>Template based on Unity's GDD Template. Available at: [Unity's GDD Template](https://connect-prd-cdn.unity.com/20201215/83f3733d-3146-42de-8a69-f461d6662eb1/Game-Design-Document-Template.pdf)

@@ -31,6 +31,8 @@ extra:
 
 nav:
   - GDD: index.md
+  - Anexos:
+      - Extra! Extra! Nova Cara na Cidade: anexos/Extra_Extra_Nova_Cara_Na_Cidade.md
  # - Tutorial mkdocs: other/tut.md
  # - Checklist Acesso e Update MkDots + GitHub Pages: other/checklist.md
 
