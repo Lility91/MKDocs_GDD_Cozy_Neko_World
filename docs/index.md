@@ -4,7 +4,7 @@ title: Cozy Neko World - GDD
 ---
 # Cozy Neko World
 
-![Concept Inicial Pets](img/Nekos_Final_Concept.png)
+![Concept Inicial Pets](img/Nekos_Final_Concept_Zoom.png)
 
 ## Nome do Jogo: 
 
