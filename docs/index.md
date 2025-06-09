@@ -132,8 +132,8 @@ O jogo é um farm/social-simulator com mecânicas de breeding de pets para a con
 ![Moodboard do Jogo](img/Moodboard(redu)(background).png)
 
 ### Paletas de Cores:
-Inspirações de Paletas de Cores:
 ![Palettes](img/Palettes.png)
+
 ---
 
 ## Contexto do Jogo
@@ -149,18 +149,18 @@ Desse ponto em diante, o jogo é guiado pelo ritmo do jogador.
 
 
 ### Eventos Anteriores:
-Em relação à história do protagonista:
+**Em relação à história do protagonista:**
 Pouco se fala do protagonista, apenas que ele estava sem rumo e sem esperanças enquanto esperava o ônibus antes de cair no buraco seguindo o nikoneko.
 
-Em relação ao mundo:
-Muito antes dos primeiros humanos chegarem em Fushijima, a ilha era habitada por dois irmãos deuses. Kazetobi, o deus do vento, era energético e inquieto, voando por entre as nuvens no céu sem nenhuma preocupação em sua mente. Uminari, seu irmão, por outro lado, preferia passar seu tempo nas profundezas, refletindo sobre a sensação das correntes marinhas em sua pele. Apesar de tão diferentes, os irmãos não brigavam, mas, também não costumavam passar muito tempo juntos, interagindo pouco ou quase nada, ao menos, até quando sentiram algo de diferente na ilha antes vazia que ficava entre seus domínios.
-Do centro da ilha havia nascido um grande broto e dele surgiu Tsuchime, deusa da terra e Tsuchime era doce, gentil e acima de tudo, criativa.
-Enquanto os irmãos, apaixonados por ela, brigavam por sua atenção, Tsuchime estava criando montanhas e vales, a areia da praia, tornando a terra fértil para que flores e árvores crescessem dela.
-Mas as flores que nasciam eram fracas e lhes faltava luz e então, Tsuchime e Kazetobi criaram o sol.
-Mas o calor excessivo do sol era demais para a fauna da ilha e Tsuchime decidiu ir até Uminari, produzindo com ele a lua.
-Quando a ilha já estava bela o suficiente, Tsuchime ajoelhou-se no centro da ilha e com suas mãos pequenas, moldou na argila os primeiros Nikonekos, com caudas duplas longas e flexíveis, tornando-os expressivos mesmo enquanto ainda eram apenas esculturas de barro. E então, com um beijo suave contra suas cabeças, Tsuchime lhes deu a vida, um por um e seus Nikonekos logo habitaram a ilha, correndo por entre as folhas e escalando as árvores.
-Kazetobi, buscando novamente pela atencão de Tsuchime, moldou com as nuvens os primeiros Hanenekos, dando-lhes asas fortes que lhes permitiria voar e brincar na brisa como ele mesmo fazia. Com um bater de palmas forte e sonoro, deu-lhes a vida, e eles logo desceram para brincar com os Nikonekos criados por Tsuchime.
-Uminari, por sua vez, moldou em seus braços a espuma das ondas para criar os primeiros Naminekos, com longas caudas de peixe que lher permitiriam nadar pelos mares como ele mesmo fazia. Com um soprar de bilhas, lhes deu a vida e eles log se juntaram aos Nikonekos e Hanenekos brincando na areia da praia.
+**Em relação ao mundo:**
+Muito antes dos primeiros humanos chegarem em **Fushijima**, a ilha era habitada por dois irmãos deuses. **Kazetobi**, o deus do vento, era energético e inquieto, voando por entre as nuvens no céu sem nenhuma preocupação em sua mente. **Uminari**, seu irmão, por outro lado, preferia passar seu tempo nas profundezas, refletindo sobre a sensação das correntes marinhas em sua pele. Apesar de tão diferentes, os irmãos não brigavam, mas, também não costumavam passar muito tempo juntos, interagindo pouco ou quase nada, ao menos, até quando sentiram algo de diferente na ilha antes vazia que ficava entre seus domínios.
+Do centro da ilha havia nascido um grande broto e dele surgiu **Tsuchime**, deusa da terra e **Tsuchime** era doce, gentil e acima de tudo, criativa.
+Enquanto os irmãos, apaixonados por ela, brigavam por sua atenção, **Tsuchime** estava criando montanhas e vales, a areia da praia, tornando a terra fértil para que flores e árvores crescessem dela.
+Mas as flores que nasciam eram fracas e lhes faltava luz e então, **Tsuchime** e **Kazetobi** criaram o **sol**.
+Mas o calor excessivo do sol era demais para a fauna da ilha e **Tsuchime** decidiu ir até **Uminari**, produzindo com ele a **lua**.
+Quando a ilha já estava bela o suficiente, **Tsuchime** ajoelhou-se no centro da ilha e com suas mãos pequenas, moldou na argila os primeiros **Nikonekos**, com caudas duplas longas e flexíveis, tornando-os expressivos mesmo enquanto ainda eram apenas esculturas de barro. E então, com um beijo suave contra suas cabeças, Tsuchime lhes deu a vida, um por um e seus **Nikonekos** logo habitaram a ilha, correndo por entre as folhas e escalando as árvores.
+**Kazetobi**, buscando novamente pela atencão de **Tsuchime**, moldou com as nuvens os primeiros **Hanenekos**, dando-lhes asas fortes que lhes permitiria voar e brincar na brisa como ele mesmo fazia. Com um bater de palmas forte e sonoro, deu-lhes a vida, e eles logo desceram para brincar com os **Nikonekos** criados por **Tsuchime**.
+**Uminari**, por sua vez, moldou em seus braços a espuma das ondas para criar os primeiros ****Naminekos**, com longas caudas de peixe que lher permitiriam nadar pelos mares como ele mesmo fazia. Com um soprar de bolhas, lhes deu a vida e eles logo subiram para se juntar aos **Nikonekos** e **Hanenekos** brincando na areia da praia.
 Daquela época até agora, muitos outros seres surgiram na ilha, mas, nenhuim tão místico como os nekos criados pelos três deuses.
 Na ilha agora pessoas e animais vivem em paz, numa comunidade otimista e auto-sustentável, onde aqueles que estavam perdidos fora da ilha podem encontrar suas verdadeiras vocações e desejos.
 
@@ -380,6 +380,30 @@ Usado para regar a semente recém-plantada no chão.
 
 ## Conflitos e Soluções
 O principal conflito do jogo é o jogador encontrar seu local com essa comunidade e desenvolver um relacionamento com os NPCs que a compõe. Cabe ao jogador escolher se irá buscar uma relação amigável com todos, ignorar alguns, desenvolver um romance ou não.
+
+---
+
+## Breeding e Manipulação Genética
+Diferente dos demais sistemas que são um pouco mais comuns, acredito que esse sistema precise ser um pouco melhor explicado.
+
+Inspirado em jogos como [Flight Rising](https://www1.flightrising.com), [Wajas](https://www.wajas.com/home_landing.php), [Aywas](https://www.aywas.com), [Lorwolf](https://www.lorwolf.com), [Khimeros](https://www.khimeros.com), [ChickenSmoothie](https://www.chickensmoothie.com) e [Felisfire](https://felisfire.com), a ideia é que cada pet, Neko, no caso desse jogo, pertence tem "slots" (pedaços de seu corpo) que podem receber "genes" que mudam o padrão em seus pelos de alguma forma.
+Alguns dos sites acime, Wajas, por exemplo, possui um sistema bastante complexo onde além dos padrões existentes dos pelos poderem ou não ser herdados pelos filhotes, ainda existe a % de visibilidade dele. Eles também possuem mutações, que modificam ainda mais a estética do animal.
+Exemplo: <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww1.flightrising.com%2Fforums%2Fibaz%2F1082701&psig=AOvVaw3BNeCyQ7yJQn1Z43OWQ15C&ust=1749512437942000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIjsw_H_4o0DFQAAAAAdAAAAABAE" style="width: 100%; height: auto;" />
+
+Nesse jogo, porém, iremos focar em algo mais semelhante ao Flight Rising, que facilita essa questão toda ao separar os corpos dos pets tem duas partes (corpo e asas, no caso do Flight Rising) e genes diferentes afetarem essas partes. Genes Primários afetam o corpo, Genes Secundários afetam as asas. No caso do Flight Rising, ainda existe o Gene Terciário, que afeta o corpo todo por CIMA dos demais. Flight Rising também simplifica o sistema de herança de cores dos pais, uma vez que ele trabalha com cores nominais pré-selecionadas e não cores em seus códigos hexagonais, dessa forma, é possível ter maior controle sobre a quantidade de cores que existem entre uma cor X e outra cor Y.
+Exemplo: <img src="img/ForeseeProgeny.png" style="width: 100%; height: auto;" />
+Os dois dragões acima são de espécies "modernas" (espécies que embora sejam diferentes, podem ser breedadas juntas, mas a espécie do filhote depende da raridade da espécie dos pais), mas, mais importante do que isso, podemos ver que mesmo com a mãe rosa e o pai azul, os filhotes podem (e muito provavelmente seriam) cinzas. Isso acontece pois Flight Rising possui uma roda de cores que segue para determinar quantas cores existem entre uma cor e outra e a roda sempre roda para um único lado.
+Exemplo: <img src="https://i.imgur.com/7bqKJ6E.png" style="width: 100%; height: auto;" />
+Os dragões nesse exemplo são da cor Bubblegum e Cerulean (nos corpos) e podemos ver que existem diversas cores entre essas duas. Usando uma calculadora desenvolvida pela comunidade apenas para facilitar nossa visualização, as cores entre Bubblegum e Cerulean são:
+<img src="img/Bubblegum_Cerulean.png" style="width: 100%; height: auto;" />
+O que quer dizer que o filhote teria mesmo mais chances de ser branco, bege ou cinza do que colorido. Embora eu queira manter o sistema de ter cores preestabelecidas, uma coisa que eu gostaria de adicionar nesse sistema é de que, a roda de cores SEMPRE irá aleatoriezar a cor do filhote pelo espaço menor, dessa forma, as chances do jogador "acertar" a cor que quer com o filhote ficam maiores o que num jogo com menor interação do que os mencionados acima, parece uma forma boa de diminuir a frustração do jogador caso ele acabe dando azar e o filhote saia de uma cor que não era a que ele queria.
+
+Dessa forma, em Cozy Neko World(Título Temporário), o sistema de Breeding funcionaria da seguinte forma:
+ - O jogador coloca dois nekos da mesma espécie para dar breed;
+ - O jogo verifica a raridade dos genes deles, genes mais comuns tem maior probabilidade de serem passados para os filhotes, enquanto genes mais raros tem menor probabilidade;
+ - O jogo então verifica em qual posição de sua roda cromática estão as cores dos pais e determina qual o sentido mais curto entre essas cores (ou seja, qual sentido tem MENOS cores entre elas);
+ - O jogo gera os ovos que, ao serem chocados, mostrarão ao jogador o(s) filhote(s) que ele ganhou.
+ - Após alguns dias esse filhote se torna adulto e o jogador pode libertá-lo ou mantê-lo consigo. 
 
 ---
 
