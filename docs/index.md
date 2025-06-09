@@ -591,6 +591,7 @@ This is where you’ll include a description of the user’s control of the game
 - [Conto_Extra_Extra_Nova_Cara_Na_Cidade](anexos/Extra_Extra_Nova_Cara_Na_Cidade.md)
 
 ---
+<!-- Pular Linha -->
 ---
 
 <small>Template based on Unity's GDD Template. Available at: [Unity's GDD Template](https://connect-prd-cdn.unity.com/20201215/83f3733d-3146-42de-8a69-f461d6662eb1/Game-Design-Document-Template.pdf)
