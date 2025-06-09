@@ -589,7 +589,7 @@ This is where you’ll include a description of the user’s control of the game
 
 ## Anexos
 
-- [Conto_Extra_Extra_Nova_Cara_Na_Cidade](anexos/Extra_Extra_Nova_Cara_Na_Cidade.pdf)
+- [Conto_Extra_Extra_Nova_Cara_Na_Cidade](anexos/Extra_Extra_Nova_Cara_Na_Cidade)
 
 ---
 
