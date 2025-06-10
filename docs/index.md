@@ -35,14 +35,27 @@ Jogadores e jogadoras maiores de 16 anos que gostem de jogos cozy com simulaçã
 ### Idade:
 A idade sugerida se deve à temas um pouco mais sérios como depressão, ansiedade, sensação de falta de propósito e local no mundo assim como alguns encontros finais podendo ir para um lado mais sexualmente sugestivos.
 
+### Concorrentes:
+#### Diretos:
+Nenhum até o momento de escrita nesse GDD.
+
+#### Indiretos:
+- [Animal Crossing](https://animalcrossing.nintendo.com/new-horizons/) (cozy 3D farming);
+- [Stardew Valley](https://store.steampowered.com/app/413150/Stardew_Valley/) (cozy 2D farming);
+- [Flight Rising](https://www1.flightrising.com), [Wajas](https://www.wajas.com/home_landing.php) e [Aywas](https://www.aywas.com) (2D pet breeding);
+- [Dream Daddy](https://store.steampowered.com/app/654880/Dream_Daddy_A_Dad_Dating_Simulator/) (2D dating);
+- [Seduce Me](https://store.steampowered.com/app/367120/Seduce_Me_the_Otome/) (2D dating);
+- [Infinity Nikki](https://store.steampowered.com/app/3164330/Infinity_Nikki/) (3D gacha).
+
+
 ---
 
 ## Objetivos
 
 ### Objetivo Principal:
-O objetivo principal do jogo como experiência é que seja um jogo cozy, sem muitas pressões ou punições e que permita ao jogador jogar em seu ritmo, guiado por sua própria curiosidade e interesse em tudo o que o jogo tem a oferecer. O objetivo principal do jogo é obter e manter o selo de 5 estrelas em sua fazenda por pelo menos 3 meses (in-game).
+O objetivo principal do jogo como experiência é que seja um jogo cozy, sem muitas pressões ou punições e que permita ao jogador jogar em seu ritmo, guiado por sua própria curiosidade e interesse em tudo o que o jogo tem a oferecer. O "objetivo principal" do jogo (aquele que sobe a tela de créditos) é obter e manter o selo de 5 estrelas em sua fazenda por pelo menos 3 meses (in-game).
 
-### Objetivos Secundários:
+### Objetivos Secundários/Sugeridos:
 - Obter nível de amizade mínimo de “confiável” com todos os NPCs;
 - Ter um relacionamento romântico estável com pelo menos um NPC;
 - Adquirir e manter pelo menos um animal de cada cor básica;
@@ -91,7 +104,7 @@ O objetivo principal do jogo como experiência é que seja um jogo cozy, sem mui
 ## Visão Geral Essencial
 
 ### Resumo: 
-O jogo é um farm/social-simulator com mecânicas de breeding de pets para a conquista de cores e genes(padrões de pelo, pena e escamas) de raridades diferentes. A cor dos animais é determinado de forma aleatória pelo jogo, mas os genes podem ser alterados pelo jogador após serem obtidos através de exploração, interação com NPCs ou através da negociação em lojas.
+O jogo é um farm/social-simulator com mecânicas de breeding de pets com características de manipulação genética para a conquista de cores e genes(padrões de pelo, pena e escamas) de raridades diferentes. A cor dos animais é determinado pelo jogo através das cores dos pais, mas os genes podem ser alterados pelo jogador usando itens de "gene" após serem obtidos através de exploração, interação com NPCs ou através da negociação em lojas.
 
 ### Aspectos Fundamentais:
 - O jogador está numa cidade aconchegante e meiga, cujos moradores são dedicados à criação e manutenção de nekos mágicos que ali habitam;
@@ -100,11 +113,10 @@ O jogo é um farm/social-simulator com mecânicas de breeding de pets para a con
 - O jogador pode utilizar itens de "gene" para mudar os padrões na pelagem de seus pets, adquirindo animais que sejam cada vez mais agradáveis para seu gosto pessoal.
 
 ### Golden Nuggets: 
-- O jogo proporciona gráficos numa temática meiga, proporção cute/kawaii e tons pasteis;
+- O jogo combina a estética cozy com um sistema de customização de pets através de seu sistema de breeding complexo;
 - As pelagens dos animais podem ser customizadas de forma a imitar o mundo real ou não;
-- Os jogadores podem se expressar através da estética de suas fazendas e pets;
-- O sistema de amizade/romance visa trazer vantagens ao jogador assim como maior customização de sua jornada;
-- O relacionamento do jogador com os NPCs determina o end-game do jogo.
+- O relacionamento do jogador com os NPCs determina o “end-game” do jogo.
+
 
 ### Referências Principais:
   
@@ -139,7 +151,7 @@ O jogo é um farm/social-simulator com mecânicas de breeding de pets para a con
 ## Contexto do Jogo
 
 ### História do Jogo:
-O personagem principal está no ponto de ônibus, está calor e ele está cansado, seus olhos pesados... Ele está quase adormecendo quando vê um estranho gato com dois rabos (nekomata) atravessar a rua correndo, ele segue o gato através da grama alta e quando acha que está quase o alcançando... Cai em um grande buraco.
+O personagem principal está no ponto de ônibus, está calor e ele está cansado, seus olhos pesados... Ele está quase adormecendo quando vê um estranho gato com dois rabos (nikoneko) atravessar a rua correndo, ele segue o gato através da grama alta e quando acha que está quase o alcançando... Cai em um grande buraco.
 
 O interior do buraco é grande e a queda longa, o personagem principal cai por ele enquanto ultrapassa alguns itens, mas antes que ele acerte o chão, ele desmaia.
 
@@ -367,6 +379,11 @@ Os NPCs Romanceáveis são todos "playersexuais" (ou seja, tem interesse no gên
 Usada para cavar um buraco no chão.
 - Regador;
 Usado para regar a semente recém-plantada no chão.
+
+### Itens Consumíveis:
+- Alimento (para os nekos);
+- Sementes (para plantar os alimentos);
+- Genes (utilizados para adcionar ou modificar um gene de uma das partes dos nekos).
 
 ### Estruturas
 
