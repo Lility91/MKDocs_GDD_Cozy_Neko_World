@@ -204,6 +204,11 @@ O jogador pode escolher entre o avatar de protagonista feminino ou masculino, am
   <img src="img/RoyalAlchemist_Protagonists.png" style="flex: 1 1 300px; max-width: 45%; height: auto;" />
 </div>
 
+#### Referências Visuais:
+  <div style="display: flex; flex-wrap: wrap; gap: 5px; justify-content: center;">
+  <img src="img/Ref_Avatar.png" style="flex: 1 1 300px; max-width: 45%; height: auto;" />
+  <img src="img/Roupinhas.png" style="flex: 1 1 300px; max-width: 45%; height: auto;" /> e <img src="img/Cute.png" style="flex: 1 1 300px; max-width: 45%; height: auto;" />
+</div>
 
 ### NPCs:
 No jogo temos oito NPCs com os quais o jogador pode interagir e desenvolver um relacionamento romântico. E mais quatro NPCs não-dateaveis que ajudaram o jogador durante sua jornada na cidade.
